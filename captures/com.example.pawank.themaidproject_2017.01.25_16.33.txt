@@ -1,0 +1,27 @@
+TASK com.example.pawank.themaidproject id=484
+  ACTIVITY com.example.pawank.themaidproject/.LoginActivity 2d1a809 pid=898
+    Local FragmentActivity 1888bc8 State:
+      mCreated=truemResumed=true mStopped=false mReallyStopped=false
+      mLoadersStarted=true
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@51a6e31
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@51a6e31
+      mCurState=5 mStateSaved=false mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.PhoneWindow$DecorView{3dfdd34 V.E..... ... 0,0-720,1280}
+        android.widget.LinearLayout{4ba0916 V.E..... ... 0,0-720,1280}
+          android.view.ViewStub{efec297 G.E..... ... 0,0-0,0 #1020476 android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{98d0c84 V.E..... ... 0,48-720,1280}
+            android.support.v7.widget.ActionBarOverlayLayout{cf6bc6d V.E..... ... 0,0-720,1232 #7f0d005c app:id/decor_content_parent}
+              android.support.v7.widget.ContentFrameLayout{bc5a0a2 V.E..... ... 0,112-720,1232 #1020002 android:id/content}
+                android.widget.RelativeLayout{962f133 V.E..... ... 0,0-720,1120 #7f0d006d app:id/activity_login_activity}
+                  android.support.v7.widget.AppCompatImageView{5106cf0 V.ED.... ... 210,32-510,332 #7f0d006e app:id/imageView2}
+                  android.support.v7.widget.AppCompatEditText{acfb269 VFED..CL ... 60,396-660,487 #7f0d006f app:id/editText3}
+                  android.support.v7.widget.AppCompatEditText{90124ee VFED..CL F.. 60,577-660,668 #7f0d0070 app:id/editText4}
+                  android.support.v7.widget.AppCompatButton{cd16d8f VFED..C. ... 60,724-660,820 #7f0d0071 app:id/button2}
+              android.support.v7.widget.ActionBarContainer{27681c V.ED.... ... 0,0-720,112 #7f0d005d app:id/action_bar_container}
+                android.support.v7.widget.Toolbar{4280c25 V.E..... ... 0,0-720,112 #7f0d005e app:id/action_bar}
+                  android.support.v7.widget.AppCompatTextView{25ea1fa V.ED.... ... 32,29-153,83}
+                  android.support.v7.widget.ActionMenuView{90153ab V.E..... ... 720,0-720,112}
+                android.support.v7.widget.ActionBarContextView{e50ea08 G.E..... ... 0,0-0,0 #7f0d005f app:id/action_context_bar}
+        android.view.View{9f245a1 V.ED.... ... 0,0-720,48 #102002f android:id/statusBarBackground}

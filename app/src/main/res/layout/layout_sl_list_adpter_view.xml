@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_cancel_black"
+            android:background="@android:color/transparent"
+            android:layout_marginRight="10dp"
+            android:id="@+id/sl_item_cancel"
+            android:visibility="gone" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/sl_item_checkBox"
+            android:fontFamily="serif"
+            android:textSize="18dp"
+            android:typeface="serif"
+            android:letterSpacing="0.01"
+            android:paddingRight="5dp" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:id="@+id/sl_item_name"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="18dp"
+            android:fontFamily="serif"
+            android:letterSpacing="0.02"
+            android:gravity="center_vertical"
+            android:background="@android:color/transparent"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/sl_item_bought_by_status"
+            android:textSize="14dp"
+            android:focusable="false"
+            android:visibility="gone"
+            android:textStyle="normal|italic"
+            android:gravity="center_vertical" />
+    </LinearLayout>
+
+</LinearLayout>

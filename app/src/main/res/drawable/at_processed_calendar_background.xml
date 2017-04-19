@@ -1,0 +1,3 @@
+<bitmap android:src="@drawable/calendar_background"
+    android:alpha="0.3"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

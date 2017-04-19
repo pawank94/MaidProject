@@ -1,0 +1,299 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:2:1-74:12
+	package
+		ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:3:5-48
+		INJECTED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml
+		INJECTED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:5:5-40
+		INJECTED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml
+		INJECTED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml
+		INJECTED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:16:5-71
+	android:name
+		ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:16:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:17:5-71
+	android:name
+		ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:17:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:18:5-72
+	android:name
+		ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:18:22-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:19:5-79
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] /home/nexusstar/.android/build-cache/832e963ea9e801bc52ed203760c598affe041322/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /home/nexusstar/.android/build-cache/462a9a44143dbf4b181e7af6926e190b3cb88e68/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /home/nexusstar/.android/build-cache/f33ebc3a335c3d79a5b98a795bc341c202b50b37/output/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:19:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:20:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] /home/nexusstar/.android/build-cache/832e963ea9e801bc52ed203760c598affe041322/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /home/nexusstar/.android/build-cache/462a9a44143dbf4b181e7af6926e190b3cb88e68/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /home/nexusstar/.android/build-cache/f33ebc3a335c3d79a5b98a795bc341c202b50b37/output/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:20:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:21:5-76
+	android:name
+		ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:21:22-73
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:22:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:23:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:24:5-65
+	android:name
+		ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:24:22-63
+application
+ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:26:5-72:19
+MERGED from [com.android.support:design:24.2.1] /home/nexusstar/.android/build-cache/e6017843b4624842e6695eafd7b383ef3eb9900a/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:24.2.1] /home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] /home/nexusstar/.android/build-cache/8ba46f1cda34fc5cef14d83cb2bdb3c592c8c242/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.1] /home/nexusstar/.android/build-cache/2a87d00d3378b6daafb28e5b7737af8fcab86bbf/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.volley:volley:1.0.0] /home/nexusstar/.android/build-cache/c5daefcaf1357faf54ce700518c33951d69943e5/output/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:9.8.0] /home/nexusstar/.android/build-cache/32472622d83058f50b2918b5ffc87ba0dd92b4f6/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:9.8.0] /home/nexusstar/.android/build-cache/20cb321d724875678d47693b0d956cdb6ea78294/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.android.support:cardview-v7:24.2.1] /home/nexusstar/.android/build-cache/5fc3cebb3fe2c0506c949feeafe7b97752f8e95e/output/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-messaging:9.8.0] /home/nexusstar/.android/build-cache/507dd5781a271240c4792e7e340f6d1a7fbe9acf/output/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-core:9.8.0] /home/nexusstar/.android/build-cache/e4da34ad615c73206811bb58fe70b589bf42937a/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] /home/nexusstar/.android/build-cache/832e963ea9e801bc52ed203760c598affe041322/output/AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /home/nexusstar/.android/build-cache/462a9a44143dbf4b181e7af6926e190b3cb88e68/output/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /home/nexusstar/.android/build-cache/f33ebc3a335c3d79a5b98a795bc341c202b50b37/output/AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-common:9.8.0] /home/nexusstar/.android/build-cache/93300c18e89537dec564b958bce5ba5c6a59247b/output/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:9.8.0] /home/nexusstar/.android/build-cache/98efa433a774de1c59aaddc1b5298de942cd3725/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:9.8.0] /home/nexusstar/.android/build-cache/84fd0796349eef769ec7dfc16459983641f59f17/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.prolificinteractive:material-calendarview:1.4.3] /home/nexusstar/.android/build-cache/49ebb4c9ace17a0406b5534df962f8858a47e6cd/output/AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:support-v4:25.1.1] /home/nexusstar/.android/build-cache/4e2795df3bc0b8bc31e6f318e94d998def44398f/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.1] /home/nexusstar/.android/build-cache/87b83404f230a826bad5360cd5ce0521508aa1f9/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.1] /home/nexusstar/.android/build-cache/1437ca521a608d194a44e83c9bfa3259991d434b/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.1] /home/nexusstar/.android/build-cache/6284e7c24c060d88022b470462525bf48b4ca75f/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.1] /home/nexusstar/.android/build-cache/86c31b0bad22127900dfd684de446413c60cea5e/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.1] /home/nexusstar/.android/build-cache/6bd97ed0bbd5b930377c460f567d491267062134/output/AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:29:9-41
+	android:supportsRtl
+		ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:31:9-35
+	android:allowBackup
+		ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:27:9-35
+	android:icon
+		ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:28:9-43
+	android:largeHeap
+		ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:30:9-33
+	android:theme
+		ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:32:9-40
+activity#com.example.pawank.themaidproject.SplashActivity
+ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:33:9-41:20
+	android:theme
+		ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:35:13-53
+	android:name
+		ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:34:13-43
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:36:13-40:29
+action#android.intent.action.MAIN
+ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:37:17-69
+	android:name
+		ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:37:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:39:17-77
+	android:name
+		ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:39:27-74
+activity#com.example.pawank.themaidproject.MainActivity
+ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:42:9-45:62
+	android:windowSoftInputMode
+		ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:45:13-60
+	android:theme
+		ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:44:13-56
+	android:name
+		ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:43:13-41
+activity#com.example.pawank.themaidproject.LoginActivity
+ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:47:9-50:62
+	android:label
+		ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:49:13-57
+	android:windowSoftInputMode
+		ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:50:13-60
+	android:name
+		ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:48:13-42
+service#com.example.pawank.themaidproject.Services.FirebaseMakeService
+ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:52:9-56:19
+	android:name
+		ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:52:18-62
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:53:13-55:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:54:25-77
+service#com.example.pawank.themaidproject.Services.FirebaseMainService
+ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:58:9-63:19
+	android:name
+		ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:59:13-57
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:60:13-62:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:61:17-77
+	android:name
+		ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:61:25-75
+meta-data#com.google.android.gms.version
+ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:68:9-70:69
+MERGED from [com.google.android.gms:play-services-basement:9.8.0] /home/nexusstar/.android/build-cache/84fd0796349eef769ec7dfc16459983641f59f17/output/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:70:13-66
+	android:name
+		ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:69:13-58
+uses-sdk
+INJECTED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:24.2.1] /home/nexusstar/.android/build-cache/e6017843b4624842e6695eafd7b383ef3eb9900a/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:24.2.1] /home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] /home/nexusstar/.android/build-cache/8ba46f1cda34fc5cef14d83cb2bdb3c592c8c242/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.1] /home/nexusstar/.android/build-cache/2a87d00d3378b6daafb28e5b7737af8fcab86bbf/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.volley:volley:1.0.0] /home/nexusstar/.android/build-cache/c5daefcaf1357faf54ce700518c33951d69943e5/output/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:recyclerview-v7:24.2.1] /home/nexusstar/.android/build-cache/86b932171bb6bd064fcfda50f96a0ff32f20850c/output/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appindexing:9.8.0] /home/nexusstar/.android/build-cache/32472622d83058f50b2918b5ffc87ba0dd92b4f6/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:9.8.0] /home/nexusstar/.android/build-cache/20cb321d724875678d47693b0d956cdb6ea78294/output/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:cardview-v7:24.2.1] /home/nexusstar/.android/build-cache/5fc3cebb3fe2c0506c949feeafe7b97752f8e95e/output/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-messaging:9.8.0] /home/nexusstar/.android/build-cache/507dd5781a271240c4792e7e340f6d1a7fbe9acf/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-core:9.8.0] /home/nexusstar/.android/build-cache/e4da34ad615c73206811bb58fe70b589bf42937a/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] /home/nexusstar/.android/build-cache/832e963ea9e801bc52ed203760c598affe041322/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /home/nexusstar/.android/build-cache/462a9a44143dbf4b181e7af6926e190b3cb88e68/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /home/nexusstar/.android/build-cache/f33ebc3a335c3d79a5b98a795bc341c202b50b37/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-common:9.8.0] /home/nexusstar/.android/build-cache/93300c18e89537dec564b958bce5ba5c6a59247b/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.8.0] /home/nexusstar/.android/build-cache/98efa433a774de1c59aaddc1b5298de942cd3725/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.8.0] /home/nexusstar/.android/build-cache/84fd0796349eef769ec7dfc16459983641f59f17/output/AndroidManifest.xml:17:5-42
+MERGED from [com.prolificinteractive:material-calendarview:1.4.3] /home/nexusstar/.android/build-cache/49ebb4c9ace17a0406b5534df962f8858a47e6cd/output/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-v4:25.1.1] /home/nexusstar/.android/build-cache/4e2795df3bc0b8bc31e6f318e94d998def44398f/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.1] /home/nexusstar/.android/build-cache/87b83404f230a826bad5360cd5ce0521508aa1f9/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.1] /home/nexusstar/.android/build-cache/1437ca521a608d194a44e83c9bfa3259991d434b/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.1.1] /home/nexusstar/.android/build-cache/6284e7c24c060d88022b470462525bf48b4ca75f/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.1] /home/nexusstar/.android/build-cache/86c31b0bad22127900dfd684de446413c60cea5e/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.1] /home/nexusstar/.android/build-cache/6bd97ed0bbd5b930377c460f567d491267062134/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.2.1] /home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml
+		INJECTED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml
+		INJECTED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.8.0] /home/nexusstar/.android/build-cache/20cb321d724875678d47693b0d956cdb6ea78294/output/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.8.0] /home/nexusstar/.android/build-cache/20cb321d724875678d47693b0d956cdb6ea78294/output/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.8.0] /home/nexusstar/.android/build-cache/20cb321d724875678d47693b0d956cdb6ea78294/output/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.8.0] /home/nexusstar/.android/build-cache/20cb321d724875678d47693b0d956cdb6ea78294/output/AndroidManifest.xml:19:19-85
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:9.8.0] /home/nexusstar/.android/build-cache/507dd5781a271240c4792e7e340f6d1a7fbe9acf/output/AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:9.8.0] /home/nexusstar/.android/build-cache/507dd5781a271240c4792e7e340f6d1a7fbe9acf/output/AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:9.8.0] /home/nexusstar/.android/build-cache/507dd5781a271240c4792e7e340f6d1a7fbe9acf/output/AndroidManifest.xml:23:18-87
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:9.8.0] /home/nexusstar/.android/build-cache/832e963ea9e801bc52ed203760c598affe041322/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /home/nexusstar/.android/build-cache/462a9a44143dbf4b181e7af6926e190b3cb88e68/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /home/nexusstar/.android/build-cache/f33ebc3a335c3d79a5b98a795bc341c202b50b37/output/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /home/nexusstar/.android/build-cache/832e963ea9e801bc52ed203760c598affe041322/output/AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.8.0] /home/nexusstar/.android/build-cache/832e963ea9e801bc52ed203760c598affe041322/output/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /home/nexusstar/.android/build-cache/462a9a44143dbf4b181e7af6926e190b3cb88e68/output/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /home/nexusstar/.android/build-cache/832e963ea9e801bc52ed203760c598affe041322/output/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /home/nexusstar/.android/build-cache/832e963ea9e801bc52ed203760c598affe041322/output/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /home/nexusstar/.android/build-cache/832e963ea9e801bc52ed203760c598affe041322/output/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.8.0] /home/nexusstar/.android/build-cache/832e963ea9e801bc52ed203760c598affe041322/output/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /home/nexusstar/.android/build-cache/832e963ea9e801bc52ed203760c598affe041322/output/AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /home/nexusstar/.android/build-cache/832e963ea9e801bc52ed203760c598affe041322/output/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /home/nexusstar/.android/build-cache/832e963ea9e801bc52ed203760c598affe041322/output/AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:9.8.0] /home/nexusstar/.android/build-cache/832e963ea9e801bc52ed203760c598affe041322/output/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:9.8.0] /home/nexusstar/.android/build-cache/832e963ea9e801bc52ed203760c598affe041322/output/AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /home/nexusstar/.android/build-cache/832e963ea9e801bc52ed203760c598affe041322/output/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:9.8.0] /home/nexusstar/.android/build-cache/832e963ea9e801bc52ed203760c598affe041322/output/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /home/nexusstar/.android/build-cache/462a9a44143dbf4b181e7af6926e190b3cb88e68/output/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /home/nexusstar/.android/build-cache/832e963ea9e801bc52ed203760c598affe041322/output/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /home/nexusstar/.android/build-cache/832e963ea9e801bc52ed203760c598affe041322/output/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /home/nexusstar/.android/build-cache/832e963ea9e801bc52ed203760c598affe041322/output/AndroidManifest.xml:32:16-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /home/nexusstar/.android/build-cache/f33ebc3a335c3d79a5b98a795bc341c202b50b37/output/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /home/nexusstar/.android/build-cache/f33ebc3a335c3d79a5b98a795bc341c202b50b37/output/AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /home/nexusstar/.android/build-cache/f33ebc3a335c3d79a5b98a795bc341c202b50b37/output/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /home/nexusstar/.android/build-cache/f33ebc3a335c3d79a5b98a795bc341c202b50b37/output/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /home/nexusstar/.android/build-cache/f33ebc3a335c3d79a5b98a795bc341c202b50b37/output/AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /home/nexusstar/.android/build-cache/f33ebc3a335c3d79a5b98a795bc341c202b50b37/output/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /home/nexusstar/.android/build-cache/f33ebc3a335c3d79a5b98a795bc341c202b50b37/output/AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /home/nexusstar/.android/build-cache/f33ebc3a335c3d79a5b98a795bc341c202b50b37/output/AndroidManifest.xml:30:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /home/nexusstar/.android/build-cache/f33ebc3a335c3d79a5b98a795bc341c202b50b37/output/AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /home/nexusstar/.android/build-cache/f33ebc3a335c3d79a5b98a795bc341c202b50b37/output/AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /home/nexusstar/.android/build-cache/f33ebc3a335c3d79a5b98a795bc341c202b50b37/output/AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /home/nexusstar/.android/build-cache/f33ebc3a335c3d79a5b98a795bc341c202b50b37/output/AndroidManifest.xml:31:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /home/nexusstar/.android/build-cache/f33ebc3a335c3d79a5b98a795bc341c202b50b37/output/AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /home/nexusstar/.android/build-cache/f33ebc3a335c3d79a5b98a795bc341c202b50b37/output/AndroidManifest.xml:32:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /home/nexusstar/.android/build-cache/f33ebc3a335c3d79a5b98a795bc341c202b50b37/output/AndroidManifest.xml:33:17-85
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /home/nexusstar/.android/build-cache/f33ebc3a335c3d79a5b98a795bc341c202b50b37/output/AndroidManifest.xml:33:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /home/nexusstar/.android/build-cache/f33ebc3a335c3d79a5b98a795bc341c202b50b37/output/AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /home/nexusstar/.android/build-cache/f33ebc3a335c3d79a5b98a795bc341c202b50b37/output/AndroidManifest.xml:34:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /home/nexusstar/.android/build-cache/f33ebc3a335c3d79a5b98a795bc341c202b50b37/output/AndroidManifest.xml:40:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /home/nexusstar/.android/build-cache/f33ebc3a335c3d79a5b98a795bc341c202b50b37/output/AndroidManifest.xml:40:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /home/nexusstar/.android/build-cache/f33ebc3a335c3d79a5b98a795bc341c202b50b37/output/AndroidManifest.xml:40:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /home/nexusstar/.android/build-cache/f33ebc3a335c3d79a5b98a795bc341c202b50b37/output/AndroidManifest.xml:44:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /home/nexusstar/.android/build-cache/f33ebc3a335c3d79a5b98a795bc341c202b50b37/output/AndroidManifest.xml:44:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /home/nexusstar/.android/build-cache/f33ebc3a335c3d79a5b98a795bc341c202b50b37/output/AndroidManifest.xml:44:18-82
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.8.0] /home/nexusstar/.android/build-cache/93300c18e89537dec564b958bce5ba5c6a59247b/output/AndroidManifest.xml:6:9-175
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.8.0] /home/nexusstar/.android/build-cache/93300c18e89537dec564b958bce5ba5c6a59247b/output/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.8.0] /home/nexusstar/.android/build-cache/93300c18e89537dec564b958bce5ba5c6a59247b/output/AndroidManifest.xml:6:125-149
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.8.0] /home/nexusstar/.android/build-cache/93300c18e89537dec564b958bce5ba5c6a59247b/output/AndroidManifest.xml:6:150-173
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.8.0] /home/nexusstar/.android/build-cache/93300c18e89537dec564b958bce5ba5c6a59247b/output/AndroidManifest.xml:6:79-124

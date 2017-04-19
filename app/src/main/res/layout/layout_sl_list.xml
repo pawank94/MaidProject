@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:theme="?attr/actionBarTheme"
+        android:minHeight="?attr/actionBarSize"
+        android:id="@+id/list_toolbar"
+        android:elevation="1dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:orientation="horizontal"
+                android:weightSum="1"
+                android:descendantFocusability="blocksDescendants">
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_arrow_back_black"
+                    android:id="@+id/sl_list_toolbar_back"
+                    android:background="@android:color/transparent"
+                    android:scaleType="center"
+                    android:layout_weight="0.1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/sl_list_toolbar_title"
+                    android:hint="@string/app_name"
+                    android:textColorHighlight="@color/colorPrimary"
+                    android:typeface="serif"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:textSize="@dimen/dialog_font"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textStyle="normal|bold"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:layout_marginLeft="20dp"
+                    android:text="vivj"
+                    android:layout_weight="0.8"
+                    android:layout_marginRight="20dp" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_cloud_upload"
+                    android:id="@+id/sl_list_toolbar_upload"
+                    android:scaleType="center"
+                    android:background="@android:color/transparent"
+                    android:layout_weight="0.1"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.Toolbar>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sl_list_upload_progress_bar"
+        android:indeterminate="true"
+        android:visibility="gone"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:id="@+id/list_recycler_view"
+            android:layout_margin="12dp"
+            android:focusable="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#9e9e9e"
+        />
+    <!--TODO: remove hard code-->
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:elevation="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:elevation="40dp"
+            android:weightSum="1">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_add_note"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/list_add_item"
+                android:layout_weight="0.1"
+                android:scaleType="center"
+                android:scaleY="1.2"
+                android:scaleX="1.2"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:id="@+id/list_modified_details"
+                android:layout_gravity="center_vertical"
+                android:textAlignment="gravity"
+                android:gravity="center_vertical|center_horizontal" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

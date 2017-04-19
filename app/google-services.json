@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "521594995688",
+    "firebase_url": "https://fir-themaidproject.firebaseio.com",
+    "project_id": "firebase-themaidproject",
+    "storage_bucket": "firebase-themaidproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521594995688:android:8f5027dc3cb07162",
+        "android_client_info": {
+          "package_name": "com.example.pawank.themaidproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521594995688-7fq9n4b8hv238bgs7pum2rd41i02oj44.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "521594995688-c4ntahdbfkvrnadr1hka5j1o1b0hundn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6Xxkc_rpB1ptJegGhHiuUEKtBHDwM5Es"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

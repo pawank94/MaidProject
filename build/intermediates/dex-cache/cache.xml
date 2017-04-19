@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="de6458e24c7f975790840b560965f0f94785c855">
+        <dex dex="/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_603cc8290ef98dfd6564b0eee42371d2cacfec23/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nexusstar/.android/build-cache/462a9a44143dbf4b181e7af6926e190b3cb88e68/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="190a642ba16d1421296a4d794606279b80039c59">
+        <dex dex="/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3dbee07875725e25dcc49786c231273473d104ab/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nexusstar/.android/build-cache/4e2795df3bc0b8bc31e6f318e94d998def44398f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_973c11e29fac9834c51b06cb51e2bc5524c99c5a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nexusstar/.android/build-cache/98efa433a774de1c59aaddc1b5298de942cd3725/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7ec7cae678de5494c77f9f39ccfcb2e8dada3288/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nexusstar/.android/build-cache/832e963ea9e801bc52ed203760c598affe041322/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9ff04cc3470178a44512624036751a803418c2ca">
+        <dex dex="/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2b7da2a6e25f878da78ac0161dcaef9f83d760da/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nexusstar/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.1_b9c86acaa82184e7a6affe663f534b622f860c86/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nexusstar/.android/build-cache/87b83404f230a826bad5360cd5ce0521508aa1f9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2a526a0d33a53c8b5ae9ce14a2a794fe1586eb2f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nexusstar/.android/build-cache/1437ca521a608d194a44e83c9bfa3259991d434b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_caf9bd4f05fc8f041ae7389609307053b7c354a1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nexusstar/.android/build-cache/86c31b0bad22127900dfd684de446413c60cea5e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c46b3ba49148733577f5f39ba205b33c18722c4d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nexusstar/.android/build-cache/6bd97ed0bbd5b930377c460f567d491267062134/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_dd0bd060902f80f95785e720b6a6da543f266786/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_293c58986aaebe7581210070de88423a2d347d37/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nexusstar/.android/build-cache/49ebb4c9ace17a0406b5534df962f8858a47e6cd/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5094eccf53998e9bcacfb85f80e7607b39b093fd">
+        <dex dex="/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_55376231beda03abc89112e547ca6ead44ef7b7c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nexusstar/.android/build-cache/84fd0796349eef769ec7dfc16459983641f59f17/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_289129491de3c1e9db1fcdb38970e64a0ad938f4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nexusstar/.android/build-cache/93300c18e89537dec564b958bce5ba5c6a59247b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
+        <dex dex="/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d364c132ada128b821ba955beb9940fa107095ac/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nexusstar/.android/build-cache/6284e7c24c060d88022b470462525bf48b4ca75f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_44c4d70e59bdb094db58f4c9f482b77ca3ddfc2c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nexusstar/.android/build-cache/507dd5781a271240c4792e7e340f6d1a7fbe9acf/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5ffe8867f51cfc726e9fb21db1e5b6962ebf25a0">
+        <dex dex="/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8ae14103eb0acaf26f664ffd4eb144458c4a4ce9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/nexusstar/.android/build-cache/f33ebc3a335c3d79a5b98a795bc341c202b50b37/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6b6f292b8b951dcf2ecf2b20853e3eabc7d65c48">
+        <dex dex="/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_941fe7a9a7a362c6c7e7ea09a732ca9463360737/classes.dex" />
+    </item>
+
+</items>

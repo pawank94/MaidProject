@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D32F2F</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="splashScreenColor">#FF6262</color>
+    <color name="lightGrey">#F5F5F5</color>
+    <color name="lightGrey1">#bdbdbd</color>
+    <color name="lightGrey2">#757575</color>
+    <color name="textLightBlack">#212121</color>
+    <color name="textDarkBlack">#424242</color>
+    <color name="veggy_color">#388e3c</color>
+    <color name="utilities_color">#bf360c</color>
+    <color name="staple_color">#4a148c</color>
+    <color name="dark_grey">#424242</color>
+    <color name="material_blue">#2196F3</color>
+    <color name="material_violet">#740699</color>
+    <color name="ic_chef_background">#386895</color>
+    <color name="ic_maid_background">#FF6262</color>
+</resources>
