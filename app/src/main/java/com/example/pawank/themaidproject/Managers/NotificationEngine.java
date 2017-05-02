@@ -11,6 +11,8 @@ import android.graphics.Typeface;
 import android.media.Ringtone;
 import android.media.RingtoneManager;
 import android.net.Uri;
+import android.os.Handler;
+import android.os.Looper;
 import android.os.Vibrator;
 import android.support.v4.app.NotificationCompat;
 import android.text.Spannable;
@@ -55,6 +57,7 @@ public class NotificationEngine {
     public static String EXTRA_FRAGMENT="fragment";
     private NotificationManager notificationManager=null;
     public static ArrayList<ModuleNotification> all_activities;
+    private Handler mHandler;
     SimpleDateFormat sdf;
 
     public NotificationEngine(Context context){
@@ -63,6 +66,7 @@ public class NotificationEngine {
         array_food_menu = new ArrayList<>();
         array_shopping_list = new ArrayList<>();
         sdf = new SimpleDateFormat("dd MMM, HH a");
+        mHandler = new Handler(Looper.getMainLooper());
         initReceiver();
     }
 
@@ -138,6 +142,15 @@ public class NotificationEngine {
         //*- to cancel notification after click*//
         n.flags |= Notification.FLAG_AUTO_CANCEL;
         notificationManager.notify(getNotificationCode(fragment), n);
+        //functionality of removing notification if application is opened
+        if(MainActivity.isOpened){
+//            mHandler.postDelayed(new Runnable() {
+//                @Override
+//                public void run() {
+//                 notificationManager.cancelAll();
+//                }
+//            },300);
+        }
     }
 
 //    private StringBuilder getNotificationText(ArrayList<ModuleNotification> fragmentNotificationArray) {

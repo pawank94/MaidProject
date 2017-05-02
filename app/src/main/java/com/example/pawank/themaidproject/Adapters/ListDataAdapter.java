@@ -3,11 +3,16 @@ package com.example.pawank.themaidproject.Adapters;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.graphics.Paint;
+import android.graphics.PorterDuff;
+import android.graphics.Typeface;
+import android.graphics.drawable.Drawable;
 import android.os.Build;
+import android.support.v4.graphics.drawable.DrawableCompat;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.RecyclerView;
 import android.text.Html;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -27,6 +32,7 @@ import com.example.pawank.themaidproject.R;
 import com.example.pawank.themaidproject.utils.MiscUtils;
 import com.example.pawank.themaidproject.Managers.PrefManager;
 
+import java.lang.reflect.Type;
 import java.util.ArrayList;
 
 /**
@@ -76,6 +82,8 @@ public class ListDataAdapter extends RecyclerView.Adapter<ListDataAdapter.ViewHo
             holder.cancelItem.setTag(position);
             holder.checkBox.setTag(position);
             holder.itemName.setTag(position);
+            holder.itemName.setTypeface(Typeface.createFromAsset(ctx.getAssets(),"Rubik/rubik.ttf"));
+            holder.itemName.setTextSize(16.2f);
             /*
             //*-NotifyDataSetChanged always REUSES the viewholder, which in turn creates problem.
             always set all view values to default
@@ -108,16 +116,21 @@ public class ListDataAdapter extends RecyclerView.Adapter<ListDataAdapter.ViewHo
             holder.itemName.setText(Html.fromHtml(text_to_set,Html.FROM_HTML_MODE_LEGACY));
         else
             holder.itemName.setText(Html.fromHtml(text_to_set));
+        Drawable dot = ctx.getResources().getDrawable(R.drawable.ic_small_dot,null);
         switch (workObject.getType())
         {
             case "VEGGY":
-                holder.itemName.setTextColor(ctx.getColor(R.color.veggy_color));
+                //*- setting color in a vector drawable
+                DrawableCompat.setTint(dot,ctx.getColor(R.color.veggy_color));
+                holder.itemType.setImageDrawable(dot);
                 break;
             case "STAPLE":
-                holder.itemName.setTextColor(ctx.getColor(R.color.staple_color));
+                DrawableCompat.setTint(dot,ctx.getColor(R.color.staple_color));
+                holder.itemType.setImageDrawable(dot);
                 break;
             case "UTILITY":
-                holder.itemName.setTextColor(ctx.getColor(R.color.utilities_color));
+                DrawableCompat.setTint(dot,ctx.getColor(R.color.utilities_color));
+                holder.itemType.setImageDrawable(dot);
                 break;
             default:
                 MiscUtils.logD(TAG,"wrong type sent");
@@ -200,12 +213,14 @@ public class ListDataAdapter extends RecyclerView.Adapter<ListDataAdapter.ViewHo
         public EditText itemName;
         public ImageButton cancelItem;
         public TextView bought_by_name;
+        public ImageView itemType;
         public ViewHold(View itemView) {
             super(itemView);
             checkBox = (CheckBox)itemView.findViewById(R.id.sl_item_checkBox);
             itemName = (EditText) itemView.findViewById(R.id.sl_item_name);
             cancelItem = (ImageButton)itemView.findViewById(R.id.sl_item_cancel);
             bought_by_name = (TextView) itemView.findViewById(R.id.sl_item_bought_by_status);
+            itemType = (ImageView) itemView.findViewById(R.id.sl_item_type);
             itemName.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -218,11 +233,13 @@ public class ListDataAdapter extends RecyclerView.Adapter<ListDataAdapter.ViewHo
                     EditText present = (EditText) ((ViewGroup)buttonView.getParent()).findViewById(R.id.sl_item_name);
                     if(buttonView.isEnabled()) {
                         if (isChecked) {
+                            Log.d("here","checked");
                             present.setPaintFlags(itemName.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
                             array.get((int) buttonView.getTag()).setBought("Y");
                             array.get((int) buttonView.getTag()).setBought_by_name(PrefManager.getSharedVal("username"));
                             array.get((int) buttonView.getTag()).setIs_dirty(1);
                         } else {
+                            Log.d("here","not checked");
                             present.setPaintFlags(itemName.getPaintFlags() & ~Paint.STRIKE_THRU_TEXT_FLAG);
                             array.get((int) buttonView.getTag()).setBought("N");
                             array.get((int) buttonView.getTag()).setBought_by_name(null);

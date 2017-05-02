@@ -12,8 +12,6 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Gravity;
@@ -24,7 +22,6 @@ import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.example.pawank.themaidproject.Adapters.MainAdapter;
 import com.example.pawank.themaidproject.Fragments.AttendenceFragment;
 import com.example.pawank.themaidproject.Fragments.ConsoleFragment;
 import com.example.pawank.themaidproject.Fragments.FoodMenuFragment;
@@ -36,7 +33,6 @@ import com.example.pawank.themaidproject.Services.FirebaseMainService;
 import com.example.pawank.themaidproject.Services.FirebaseMakeService;
 import com.example.pawank.themaidproject.Managers.ComManager;
 import com.example.pawank.themaidproject.Managers.PrefManager;
-import com.example.pawank.themaidproject.utils.MiscUtils;
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.appindexing.Thing;
@@ -48,7 +44,7 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
     private ListView mDrawerList;
     private ArrayAdapter<String> mAdapter;
-    private ActionBarDrawerToggle mToggleDrawer;
+    public ActionBarDrawerToggle mToggleDrawer;
     private DrawerLayout mDrawerLayout;
     private NavigationView mNavigationView;
     private ArrayList<String> mArrayForDrawer;
@@ -59,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
     private ProgressBar progressBar;
     private Handler mHandler;
     private SQLManager sqlManager;
+    private View searchBarView = null;
     public static boolean isOpened;
     public static final int FRAGMENT_ATTENDENCE = 1;
     public static final int FRAGMENT_CONSOLE = 4;
@@ -151,7 +148,7 @@ public class MainActivity extends AppCompatActivity {
                 else{
                     backCounter = 1;
                 }
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, MainFragment.getInstance()).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, MainFragment.getInstance(MainActivity.this)).commit();
             }
             //super.onBackPressed();
     }
@@ -174,11 +171,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onPause() {
         super.onPause();
         isOpened = false;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        return false;
     }
 
     public void setUpNavigationBar() {
@@ -320,7 +312,7 @@ public class MainActivity extends AppCompatActivity {
                         mHandler.post(new Runnable() {
                             @Override
                             public void run() {
-                                MainFragment mf = MainFragment.getInstance();
+                                MainFragment mf = MainFragment.getInstance(MainActivity.this);
                                 getSupportFragmentManager().beginTransaction()
                                         .add(R.id.fragment_container, mf)
                                         .commit();
@@ -349,6 +341,7 @@ public class MainActivity extends AppCompatActivity {
                 .setActionStatus(Action.STATUS_TYPE_COMPLETED)
                 .build();
     }
+
 
     @Override
     public void onStart() {

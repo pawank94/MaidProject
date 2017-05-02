@@ -21,6 +21,8 @@
     <!-- Strings related to food menu recycler menu -->
     <string name="fm_menu_item_1">1</string>
     <string name="fm_menu_item_2">1</string>
+    <string name="main_search_icon_title">Search</string>
+    <string name="search_hint">Search</string>
 
     <!-- food menu update -->
     <string-array name="fm_update_meal_dropdown">
@@ -50,5 +52,12 @@
 
     <string-array name="at_report_absent_dropdown_one_shift_e">
         <item name="at_report_absent_1">Evening</item>
+    </string-array>
+
+    <!--main search menu Spinner-->
+    <string-array name="main_search">
+        <item name="main_search_item_1">Module</item>
+        <item name="main_search_item_2">Date</item>
+        <item name="main_search_item_3">Content</item>
     </string-array>
 </resources>
