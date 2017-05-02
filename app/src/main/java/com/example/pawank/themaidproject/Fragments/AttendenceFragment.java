@@ -461,7 +461,6 @@ public class AttendenceFragment extends Fragment {
             @Override
             public void onFailure(Object obj) throws JSONException {
                 JSONObject jObj = (JSONObject)obj;
-                Log.d("here","here");
                 calendarView.removeDecorators();
                 vPagerAdapter.notifyDataSetChanged();
                 if(jObj.getString("STATUS").equals("FALSE"))

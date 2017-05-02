@@ -135,7 +135,6 @@ public class FoodMenuFragment extends Fragment {
                         header_image.setBackground(new BitmapDrawable(MiscUtils.getBitmap(header_image_key)));
                         main_layout.setBackground(getResources().getDrawable(R.drawable.fm_stretched_doodle));
                         setupView();
-                        //.MiscUtils.logD("here",header_image.getBackground().toString()+new BitmapDrawable(getResources(), MiscUtils.getDecodedImage(getActivity(),R.drawable.ic_food_menu_header)).getIntrinsicHeight());
                     }
                 });
             }

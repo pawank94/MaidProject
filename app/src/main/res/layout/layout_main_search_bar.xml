@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="2dp">
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_arrow_back_white"
+        android:background="@android:color/transparent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:id="@+id/main_search_bar_back" />
+
+    <Spinner
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="3"
+        android:id="@+id/main_search_bar_spinner">
+    </Spinner>
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:cursorVisible="true"
+        android:hint="Search"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:textColor="@android:color/white"
+        android:textCursorDrawable="@android:color/white"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="5"
+        android:id="@+id/main_search_bar_query" />
+
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_backspace_white"
+        android:background="@android:color/transparent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:scaleX="0.7"
+        android:scaleY="0.7"
+        android:id="@+id/main_search_bar_cancel" />
+
+</LinearLayout>

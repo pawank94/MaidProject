@@ -329,6 +329,12 @@ public class MiscUtils {
         }
     }
 
+    public static String getStringFromDateObject(Date d){
+        SimpleDateFormat sdf2 = new SimpleDateFormat("dd MMM, yyyy");
+        return sdf2.format(d);
+
+    }
+
     ////////////////////////////////////////////////////////////////
 
     public static CharSequence getNotificationStyleTitle(String fragment) {

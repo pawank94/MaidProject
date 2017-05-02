@@ -21,7 +21,7 @@ import java.util.ArrayList;
  * Created by pawan.k on 18-04-2017.
  */
 
-public class MainAdapter extends RecyclerView.Adapter<MainAdapter.vHolder> {
+public class MainAdapter extends RecyclerView.Adapter<MainAdapter.vHolder>{
     private ArrayList<ModuleNotification> activities;
     private Context ctx;
     private String TAG="Main Adapter";
