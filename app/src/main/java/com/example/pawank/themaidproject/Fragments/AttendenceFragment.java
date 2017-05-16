@@ -412,6 +412,7 @@ public class AttendenceFragment extends Fragment {
         /******************************************************************/
         ad = new AlertDialog.Builder(getActivity())
                             .setView(v).create();
+        MiscUtils.forceShowKeyboard(reason,ad);
         ad.show();
     }
 

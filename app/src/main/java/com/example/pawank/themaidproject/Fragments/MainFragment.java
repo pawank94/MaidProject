@@ -31,6 +31,7 @@ import com.example.pawank.themaidproject.MainActivity;
 import com.example.pawank.themaidproject.Managers.NotificationEngine;
 import com.example.pawank.themaidproject.Managers.SearchEngine;
 import com.example.pawank.themaidproject.R;
+import com.example.pawank.themaidproject.Services.FirebaseMainService;
 import com.example.pawank.themaidproject.utils.MiscUtils;
 
 import java.util.ArrayList;
@@ -80,7 +81,7 @@ public class MainFragment extends Fragment implements DatePickerDialog.OnDateSet
         no_data_view =(RelativeLayout) v.findViewById(R.id.main_no_data);
         data_view.setVisibility(View.GONE);
         no_data_view.setVisibility(View.GONE);
-        if(NotificationEngine.all_activities.size()!=0) {
+        if(FirebaseMainService.getAllActivities().size()!=0) {
             data_view.setVisibility(View.VISIBLE);
         }else{
             no_data_view.setVisibility(View.VISIBLE);
@@ -93,9 +94,9 @@ public class MainFragment extends Fragment implements DatePickerDialog.OnDateSet
         super.onStart();
         if(mainRecyclerView!=null){
             if(adapter==null) {
-                if(NotificationEngine.all_activities!=null && NotificationEngine.all_activities.size()!=0)
-                    activitiesArray.addAll(NotificationEngine.all_activities);
-                adapter = new MainAdapter(activitiesArray , getActivity());
+                if(FirebaseMainService.getAllActivities()!=null && FirebaseMainService.getAllActivities().size()!=0)
+                    activitiesArray.addAll(FirebaseMainService.getAllActivities());
+                adapter = new MainAdapter(activitiesArray , getActivity(), MainFragment.this);
                 mainRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity(), LinearLayoutManager.VERTICAL, false));
                 mainRecyclerView.setAdapter(adapter);
             }
@@ -240,7 +241,7 @@ public class MainFragment extends Fragment implements DatePickerDialog.OnDateSet
                 no_data_view.setVisibility(View.VISIBLE);
             if(data_view.getVisibility()==View.VISIBLE)
                 data_view.setVisibility(View.GONE);
-            activitiesArray.addAll(NotificationEngine.all_activities);
+            activitiesArray.addAll(FirebaseMainService.getAllActivities());
         }
         else{
             if(data_view.getVisibility()==View.GONE)
@@ -252,7 +253,7 @@ public class MainFragment extends Fragment implements DatePickerDialog.OnDateSet
 
     public void resetMainAdapter(){
         activitiesArray.clear();
-        activitiesArray.addAll(NotificationEngine.all_activities);
+        activitiesArray.addAll(FirebaseMainService.getAllActivities());
         if(data_view.getVisibility()==View.GONE)
             data_view.setVisibility(View.VISIBLE);
         no_data_view.setVisibility(View.GONE);

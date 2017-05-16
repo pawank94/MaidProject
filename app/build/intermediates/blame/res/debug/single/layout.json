@@ -8,12 +8,12 @@
         "source": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/layout/abc_action_menu_layout.xml"
     },
     {
-        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
-        "source": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/layout/abc_activity_chooser_view_list_item.xml"
-    },
-    {
         "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/layout/layout_at__dialog_report_absent.xml",
         "source": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/res/layout/layout_at__dialog_report_absent.xml"
+    },
+    {
+        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/layout/abc_activity_chooser_view_list_item.xml"
     },
     {
         "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
@@ -28,16 +28,16 @@
         "source": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/layout/notification_template_part_time.xml"
     },
     {
-        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/layout/normal_date_cell.xml",
-        "source": "/home/nexusstar/.android/build-cache/4ff2c70ec6649fac2ec19a6badce0a466d02ecc4/output/res/layout/normal_date_cell.xml"
-    },
-    {
         "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/layout/design_text_input_password_icon.xml",
         "source": "/home/nexusstar/.android/build-cache/e6017843b4624842e6695eafd7b383ef3eb9900a/output/res/layout/design_text_input_password_icon.xml"
     },
     {
         "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/layout/layout_fm_list.xml",
         "source": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/res/layout/layout_fm_list.xml"
+    },
+    {
+        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/layout/layout_main_search_bar.xml",
+        "source": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/res/layout/layout_main_search_bar.xml"
     },
     {
         "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/layout/layout_m_main_recycler.xml",
@@ -84,6 +84,10 @@
         "source": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/layout/notification_template_lines.xml"
     },
     {
+        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/layout/activity_search_result.xml",
+        "source": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/res/layout/activity_search_result.xml"
+    },
+    {
         "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
         "source": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/layout/notification_template_big_media.xml"
     },
@@ -102,14 +106,6 @@
     {
         "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
         "source": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/layout/abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/layout/drawer_header_layout.xml",
-        "source": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/res/layout/drawer_header_layout.xml"
-    },
-    {
-        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/layout/weekday_textview.xml",
-        "source": "/home/nexusstar/.android/build-cache/4ff2c70ec6649fac2ec19a6badce0a466d02ecc4/output/res/layout/weekday_textview.xml"
     },
     {
         "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
@@ -168,20 +164,12 @@
         "source": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/layout/abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/layout/no_data.xml",
-        "source": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/res/layout/no_data.xml"
-    },
-    {
         "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
         "source": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/layout/abc_action_menu_item_layout.xml"
     },
     {
         "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
         "source": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/layout/abc_dialog_title_material.xml"
-    },
-    {
-        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/layout/calendar_view.xml",
-        "source": "/home/nexusstar/.android/build-cache/4ff2c70ec6649fac2ec19a6badce0a466d02ecc4/output/res/layout/calendar_view.xml"
     },
     {
         "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
@@ -196,6 +184,10 @@
         "source": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/res/layout/activity_main.xml"
     },
     {
+        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/layout/layout_main_search_spinner_layout.xml",
+        "source": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/res/layout/layout_main_search_spinner_layout.xml"
+    },
+    {
         "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/layout/layout_sl__dialog_list_data_entry.xml",
         "source": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/res/layout/layout_sl__dialog_list_data_entry.xml"
     },
@@ -208,12 +200,12 @@
         "source": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
-        "source": "/home/nexusstar/.android/build-cache/e6017843b4624842e6695eafd7b383ef3eb9900a/output/res/layout/design_layout_snackbar_include.xml"
-    },
-    {
         "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/layout/layout_at_pager_employee_card.xml",
         "source": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/res/layout/layout_at_pager_employee_card.xml"
+    },
+    {
+        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
+        "source": "/home/nexusstar/.android/build-cache/e6017843b4624842e6695eafd7b383ef3eb9900a/output/res/layout/design_layout_snackbar_include.xml"
     },
     {
         "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
@@ -230,10 +222,6 @@
     {
         "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
         "source": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/layout/abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/layout/date_grid_fragment.xml",
-        "source": "/home/nexusstar/.android/build-cache/4ff2c70ec6649fac2ec19a6badce0a466d02ecc4/output/res/layout/date_grid_fragment.xml"
     },
     {
         "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/layout/fragment_console.xml",
@@ -258,10 +246,6 @@
     {
         "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
         "source": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/layout/abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/layout/square_date_cell.xml",
-        "source": "/home/nexusstar/.android/build-cache/4ff2c70ec6649fac2ec19a6badce0a466d02ecc4/output/res/layout/square_date_cell.xml"
     },
     {
         "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/layout/activity_login_activity.xml",

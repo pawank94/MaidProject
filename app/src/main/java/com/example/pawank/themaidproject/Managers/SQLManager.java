@@ -8,6 +8,7 @@ import android.util.Log;
 import android.widget.Toast;
 
 import com.example.pawank.themaidproject.DataClass.ModuleNotification;
+import com.example.pawank.themaidproject.Services.FirebaseMainService;
 import com.example.pawank.themaidproject.utils.MiscUtils;
 
 import org.json.JSONObject;
@@ -272,7 +273,7 @@ public class SQLManager extends SQLiteOpenHelper {
             String query_drop_activities_table = "delete from " + activities_table_name;
             sql_db.execSQL(query_drop_activities_table);
         }
-        for(ModuleNotification mn : NotificationEngine.all_activities){
+        for(ModuleNotification mn : FirebaseMainService.getAllActivities()){
             String query = "insert into "+activities_table_name+" values('"+mn.getDate()+"','"+mn.getnContent()+"','"+mn.getModule()+"')";
             sql_db.execSQL(query);
         }

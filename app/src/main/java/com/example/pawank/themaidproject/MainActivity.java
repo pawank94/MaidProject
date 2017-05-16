@@ -33,6 +33,7 @@ import com.example.pawank.themaidproject.Services.FirebaseMainService;
 import com.example.pawank.themaidproject.Services.FirebaseMakeService;
 import com.example.pawank.themaidproject.Managers.ComManager;
 import com.example.pawank.themaidproject.Managers.PrefManager;
+import com.example.pawank.themaidproject.utils.MiscUtils;
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.appindexing.Thing;
@@ -78,6 +79,17 @@ public class MainActivity extends AppCompatActivity {
         backCounter=1;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //just in case if splash screen is skipped
+        MiscUtils.initMiscUtil(getApplicationContext());
+        MiscUtils.initPrivateStorage(getApplicationContext());
+        //*********************Firebase Initializations*******************//
+        Intent firebaseMakeService,firebaseMainService;
+        firebaseMainService = new Intent(MainActivity.this,FirebaseMainService.class);
+        firebaseMakeService = new Intent(MainActivity.this, FirebaseMakeService.class);
+        startService(firebaseMainService);
+        startService(firebaseMakeService);
+        FirebaseMainService.initAllActivities(getApplicationContext());
+        /////////////////////////////////////////////////////////////////////////////////
         v = findViewById(R.id.drawer_layout);
         isOpened = true;
         comManager = new ComManager(getBaseContext());
@@ -101,18 +113,12 @@ public class MainActivity extends AppCompatActivity {
         else{
             mToolbar.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
         }
-        //*********************Firebase Initializations*******************//
-        Intent firebaseMakeService,firebaseMainService;
-        firebaseMainService = new Intent(MainActivity.this,FirebaseMainService.class);
-        firebaseMakeService = new Intent(MainActivity.this, FirebaseMakeService.class);
-        startService(firebaseMainService);
-        startService(firebaseMakeService);
-        NotificationEngine.initActivitiesArray(MainActivity.this);
         ///////////////////////////////////////////////////////////////////////////////////
         comManager.sendFirebaseDeviceKeyToServer(getApplicationContext(),FirebaseInstanceId.getInstance().getToken());
         if(getIntent().getIntExtra(NotificationEngine.EXTRA_FRAGMENT,-1)!=-1)
         {
             startFragmentTransaction(getIntent().getIntExtra(NotificationEngine.EXTRA_FRAGMENT,-1));
+            NotificationEngine.clearActivitiesArray();
         }
         else{
             startFragmentTransaction(FRAGMENT_MAIN);

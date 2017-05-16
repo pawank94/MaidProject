@@ -1,11 +1,11 @@
 package com.example.pawank.themaidproject;
 
 import android.Manifest;
-import android.app.Notification;
-import android.app.NotificationManager;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.os.Handler;
+import android.os.Looper;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
@@ -94,55 +94,67 @@ public class SplashActivity extends AppCompatActivity {
     }
     // if all permission granted then proceed furthur
     public void proceed() {
-        Log.d(TAG,permission_count+""+total_permission_count);
-        if(permission_count==total_permission_count) {
-            //Check if google play service is available, if not redirect user
-            if(GoogleApiAvailability.getInstance().isGooglePlayServicesAvailable(getApplicationContext())== ConnectionResult.SUCCESS)
-            {
-                Log.d(TAG,"playService Exists");
-            }
-            else {
-                Log.e(TAG,"playService does not Exists");
-                GoogleApiAvailability.getInstance().makeGooglePlayServicesAvailable(SplashActivity.this);
-            }
-            //***************Initializations****************//
-            comManager=new ComManager(getBaseContext());
-            sqlManager = new SQLManager(getApplicationContext());
-            MiscUtils.initMiscUtil(getApplicationContext());
-            PrefManager.initSharedPref(getApplicationContext());
-            MiscUtils.initPrivateStorage(getApplicationContext());
-            MiscUtils.initCache();
-            MiscUtils.initConsoleFile(getApplicationContext());
-            sqlManager.putUrlTableAddress("https://www.firest0ne.me/SHEapp/Api");
-            comManagerInitUrlAddress();
-            initializeBitmapCache();
-            ConsoleCommands.initConsoleCommand(SplashActivity.this);
-            //Initialization of all basic utilities
-            //TODO: ComManager initialization from db
-            //TODO: hardcoding removal
-            //
-            MiscUtils.logD("Proceed","function called");
-            if((checksum=sqlManager.getCheckSum())==null)
-            {
-                //login screen
-                Intent in=new Intent(SplashActivity.this,LoginActivity.class);
-                startActivity(in);
-                finish();
-            }
-            else{
-                //call server for check
-                if(checksum!=null) {
-                    PrefManager.setSharedVal("checksum", checksum);
-                    if(sqlManager.getUserName()!=null)
-                        PrefManager.setSharedVal("username",sqlManager.getUserName());
-                }
-                startMainActivity();
-            }
+        //to avoid too much processing on front end
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                new Handler(Looper.getMainLooper()).post(new Runnable() {
+                    @Override
+                    public void run() {
+                        Log.d(TAG,permission_count+""+total_permission_count);
+                        if(permission_count==total_permission_count) {
+                            //Check if google play service is available, if not redirect user
+                            if(GoogleApiAvailability.getInstance().isGooglePlayServicesAvailable(getApplicationContext())== ConnectionResult.SUCCESS)
+                            {
+                                Log.d(TAG,"playService Exists");
+                            }
+                            else {
+                                Log.e(TAG,"playService does not Exists");
+                                GoogleApiAvailability.getInstance().makeGooglePlayServicesAvailable(SplashActivity.this);
+                            }
+                            //***************Initializations****************//
+                            comManager=new ComManager(getBaseContext());
+                            sqlManager = new SQLManager(getApplicationContext());
+                            MiscUtils.initMiscUtil(getApplicationContext());
+                            PrefManager.initSharedPref(getApplicationContext());
+                            MiscUtils.initPrivateStorage(getApplicationContext());
+                            MiscUtils.initCache();
+                            MiscUtils.initConsoleFile(getApplicationContext());
+                            NotificationEngine.dismissAllNotifications(getApplicationContext());
+                            sqlManager.putUrlTableAddress("https://www.firest0ne.me/SHEapp/Api");
+                            comManagerInitUrlAddress();
+                            initializeBitmapCache();
+                            ConsoleCommands.initConsoleCommand(SplashActivity.this);
+                            //Initialization of all basic utilities
+                            //TODO: ComManager initialization from db
+                            //TODO: hardcoding removal
+                            //
+                            MiscUtils.logD("Proceed","function called");
+                            if((checksum=sqlManager.getCheckSum())==null)
+                            {
+                                //login screen
+                                Intent in=new Intent(SplashActivity.this,LoginActivity.class);
+                                startActivity(in);
+                                finish();
+                            }
+                            else{
+                                //call server for check
+                                if(checksum!=null) {
+                                    PrefManager.setSharedVal("checksum", checksum);
+                                    if(sqlManager.getUserName()!=null)
+                                        PrefManager.setSharedVal("username",sqlManager.getUserName());
+                                }
+                                startMainActivity();
+                            }
 
-        }
-        else {
-            Log.d("proceed function","permissions pending");
-        }
+                        }
+                        else {
+                            Log.d("proceed function","permissions pending");
+                        }
+                    }
+                });
+            }
+        }).start();
     }
 
     private void startMainActivity() {
@@ -161,7 +173,7 @@ public class SplashActivity extends AppCompatActivity {
         }).start();
     }
 
-
+    //cache bitmaps
     private void initializeBitmapCache() {
         MiscUtils.logD(TAG,"initializing bitmap cache");
         //add all new Images to cache which are going to be used as header

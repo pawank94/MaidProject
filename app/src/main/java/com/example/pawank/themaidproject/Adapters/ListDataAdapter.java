@@ -83,7 +83,7 @@ public class ListDataAdapter extends RecyclerView.Adapter<ListDataAdapter.ViewHo
             holder.checkBox.setTag(position);
             holder.itemName.setTag(position);
             holder.itemName.setTypeface(Typeface.createFromAsset(ctx.getAssets(),"Rubik/rubik.ttf"));
-            holder.itemName.setTextSize(16.2f);
+            holder.itemName.setTextSize(20.2f);
             /*
             //*-NotifyDataSetChanged always REUSES the viewholder, which in turn creates problem.
             always set all view values to default
@@ -116,21 +116,17 @@ public class ListDataAdapter extends RecyclerView.Adapter<ListDataAdapter.ViewHo
             holder.itemName.setText(Html.fromHtml(text_to_set,Html.FROM_HTML_MODE_LEGACY));
         else
             holder.itemName.setText(Html.fromHtml(text_to_set));
-        Drawable dot = ctx.getResources().getDrawable(R.drawable.ic_small_dot,null);
         switch (workObject.getType())
         {
             case "VEGGY":
                 //*- setting color in a vector drawable
-                DrawableCompat.setTint(dot,ctx.getColor(R.color.veggy_color));
-                holder.itemType.setImageDrawable(dot);
+                holder.itemType.setImageDrawable(ctx.getResources().getDrawable(R.drawable.ic_small_dot_for_veggy));
                 break;
             case "STAPLE":
-                DrawableCompat.setTint(dot,ctx.getColor(R.color.staple_color));
-                holder.itemType.setImageDrawable(dot);
+                holder.itemType.setImageDrawable(ctx.getResources().getDrawable(R.drawable.ic_small_dot_for_staple));
                 break;
             case "UTILITY":
-                DrawableCompat.setTint(dot,ctx.getColor(R.color.utilities_color));
-                holder.itemType.setImageDrawable(dot);
+                holder.itemType.setImageDrawable(ctx.getResources().getDrawable(R.drawable.ic_small_dot_for_utility));
                 break;
             default:
                 MiscUtils.logD(TAG,"wrong type sent");
@@ -139,8 +135,9 @@ public class ListDataAdapter extends RecyclerView.Adapter<ListDataAdapter.ViewHo
         /*
         checkbox only works if current user is using it
          */
-        if (workObject.isBought().equals("Y"))
+        if (workObject.isBought().equals("Y")) {
             holder.checkBox.setChecked(true);
+        }
         else
             holder.checkBox.setChecked(false);
         if(holder.checkBox.isChecked()) {
@@ -168,6 +165,7 @@ public class ListDataAdapter extends RecyclerView.Adapter<ListDataAdapter.ViewHo
         final AlertDialog editItemDialog = new AlertDialog.Builder(ctx)
                 .setView(v)
                 .create();
+        MiscUtils.forceShowKeyboard(editItemName,editItemDialog);
         editItemDialog.show();
         editItemBackButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -227,19 +225,19 @@ public class ListDataAdapter extends RecyclerView.Adapter<ListDataAdapter.ViewHo
                     editListItemData(v,(int)v.getTag());
                 }
             });
-            checkBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            checkBox.setOnClickListener(new View.OnClickListener() {
                 @Override
-                public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                    EditText present = (EditText) ((ViewGroup)buttonView.getParent()).findViewById(R.id.sl_item_name);
+                public void onClick(View v) {
+                    EditText present = (EditText) ((ViewGroup)v.getParent()).findViewById(R.id.sl_item_name);
+                    CheckBox buttonView = (CheckBox)v;
                     if(buttonView.isEnabled()) {
-                        if (isChecked) {
-                            Log.d("here","checked");
+                        Log.d(TAG,"checked here");
+                        if (buttonView.isChecked()) {
                             present.setPaintFlags(itemName.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
                             array.get((int) buttonView.getTag()).setBought("Y");
                             array.get((int) buttonView.getTag()).setBought_by_name(PrefManager.getSharedVal("username"));
                             array.get((int) buttonView.getTag()).setIs_dirty(1);
                         } else {
-                            Log.d("here","not checked");
                             present.setPaintFlags(itemName.getPaintFlags() & ~Paint.STRIKE_THRU_TEXT_FLAG);
                             array.get((int) buttonView.getTag()).setBought("N");
                             array.get((int) buttonView.getTag()).setBought_by_name(null);

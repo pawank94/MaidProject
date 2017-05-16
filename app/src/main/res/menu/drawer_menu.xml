@@ -6,16 +6,11 @@
             android:id="@+id/drawer_attendence"
             android:icon="@drawable/ic_attendence"
             />
-        <item
-            android:title="@string/navigation_mentions"
-            android:id="@+id/drawer_mentions"
-            android:icon="@drawable/ic_mentions"
-            />
-        <item
-            android:title="@string/navigation_udhar"
-            android:id="@+id/drawer_udhar"
-            android:icon="@drawable/ic_udhar"
-            />
+        <!--<item-->
+            <!--android:title="@string/navigation_mentions"-->
+            <!--android:id="@+id/drawer_mentions"-->
+            <!--android:icon="@drawable/ic_mentions"-->
+            <!--/>-->
         <item
             android:title="@string/navigation_shopping_list"
             android:id="@+id/drawer_shopping_list"

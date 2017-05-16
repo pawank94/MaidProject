@@ -1,6 +1,7 @@
 package com.example.pawank.themaidproject.Fragments;
 
 import android.app.DatePickerDialog;
+import android.content.DialogInterface;
 import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -13,6 +14,8 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -20,6 +23,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.CheckBox;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -32,7 +36,10 @@ import android.widget.Toast;
 
 import com.example.pawank.themaidproject.Adapters.FoodMenuAdapter;
 import com.example.pawank.themaidproject.DataClass.FoodMenu;
+import com.example.pawank.themaidproject.DataClass.ShoppingList;
+import com.example.pawank.themaidproject.DataClass.ShoppingListItem;
 import com.example.pawank.themaidproject.MainActivity;
+import com.example.pawank.themaidproject.Managers.PrefManager;
 import com.example.pawank.themaidproject.R;
 import com.example.pawank.themaidproject.utils.Callback;
 import com.example.pawank.themaidproject.Managers.ComManager;
@@ -85,7 +92,17 @@ public class FoodMenuFragment extends Fragment {
     private ProgressBar uploadProgressBar;
     private NestedScrollView nested_Scroll_view;
     private boolean dateFirstTime=true;
-
+    private CheckBox add_to_sl;
+    ArrayList<ShoppingList> shoppingLists;
+    private ShoppingListItem sli;
+    private EditText newItemName;
+    private ImageButton newItemBackButton,newItemSaveButton;
+    private Spinner newItemType;
+    private Switch newItemIsBought;
+    private ArrayList<ShoppingListItem> items_list;
+    private String food_update_token;
+    private String new_list_title;
+    private String shopping_list_update_token;
     public FoodMenuFragment() {
         fragmentInstance=FoodMenuFragment.this;
     }
@@ -105,6 +122,8 @@ public class FoodMenuFragment extends Fragment {
         sqlManager=new SQLManager(getActivity().getApplicationContext());
         comManager=new ComManager(getActivity().getApplication());
         mHandler = new Handler(Looper.getMainLooper());
+        shoppingLists = new ArrayList<>();
+        items_list = new ArrayList<>();
     }
 
     @Override
@@ -309,6 +328,7 @@ public class FoodMenuFragment extends Fragment {
         sp = (Spinner)fm_dialog.findViewById(R.id.spinner);
         name = (EditText)fm_dialog.findViewById(R.id.editText5);
         date = (EditText)fm_dialog.findViewById(R.id.editText7);
+        add_to_sl = (CheckBox) fm_dialog.findViewById(R.id.fm_add_to_sl);
         calendar=Calendar.getInstance();
         change = (ImageButton)fm_dialog.findViewById(R.id.fm_change_dialog_save);
         cancel = (ImageButton)fm_dialog.findViewById(R.id.fm_change_dialog_back);
@@ -328,6 +348,7 @@ public class FoodMenuFragment extends Fragment {
         final AlertDialog alertDialog=new AlertDialog.Builder(getActivity())
                 .setView(fm_dialog)
                 .create();
+        MiscUtils.forceShowKeyboard(name,alertDialog);
         alertDialog.show();
         date.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -345,31 +366,11 @@ public class FoodMenuFragment extends Fragment {
                     Toast.makeText(getActivity(),"Enter details first!",Toast.LENGTH_SHORT).show();
                     return;
                 }
-                uploadProgressBar.setVisibility(View.VISIBLE);
-                Callback callback = new Callback() {
-                    @Override
-                    public void onSuccess(Object obj) throws JSONException, ParseException {
-                        uploadProgressBar.setVisibility(View.GONE);
-                        Snackbar.make(getActivity().findViewById(android.R.id.content),"Server Updated!!",Snackbar.LENGTH_SHORT).show();
-                        alertDialog.cancel();
-                        getMenu();
-                    }
-
-                    @Override
-                    public void onFailure(Object obj) throws JSONException {
-                        uploadProgressBar.setVisibility(View.GONE);
-                        Snackbar.make(fm_dialog,"Server error occured!!",Snackbar.LENGTH_SHORT).show();
-                    }
-                };
-                try {
-                    //jugad for getting date in desired format
-                    SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-                    SimpleDateFormat sdf1 = new SimpleDateFormat("dd/MM/yyyy");
-                    Date tempDate = sdf1.parse(date.getText().toString());
-                    comManager.updateFoodMenu(getActivity(), name.getText().toString(), sdf.format(tempDate), day, sp.getSelectedItem().toString(), aSwitch.isChecked(), callback);
-                }catch (Exception e){
-                    e.printStackTrace();
+                changeFoodMenuOnServer(alertDialog,fm_dialog);
+                if(add_to_sl.isChecked()){
+                    addToShoppingListSelectionDialog();
                 }
+                alertDialog.cancel();
             }
         });
         cancel.setOnClickListener(new View.OnClickListener() {
@@ -378,6 +379,184 @@ public class FoodMenuFragment extends Fragment {
                 alertDialog.cancel();
             }
         });
+    }
+
+    private void addToShoppingListSelectionDialog() {
+        final EditText listName =new EditText(getActivity());
+        AlertDialog ad = new AlertDialog.Builder(getActivity())
+                .setTitle("Enter Lists Name")
+                .setView(listName)
+                .setPositiveButton("Create", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        new_list_title = listName.getText().toString();
+                        final ShoppingList sl=new ShoppingList();
+                        sl.setTitle(listName.getText().toString());
+                        sl.setIs_done("N");
+                        getNewListItemData(sl);
+                    }
+                })
+                .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.cancel();
+                    }
+                }).create();
+        ad.show();
+    }
+
+    private void getNewListItemData(final ShoppingList shoppingList) {
+        View v = LayoutInflater.from(getActivity()).inflate(R.layout.layout_sl__dialog_list_data_entry,null);
+        sli = null;
+        newItemName = (EditText)v.findViewById(R.id.sl_list_new_item_name);
+        newItemBackButton = (ImageButton)v.findViewById(R.id.sl_list_new_item_back);
+        newItemSaveButton = (ImageButton)v.findViewById(R.id.sl_list_new_item_save);
+        newItemType = (Spinner)v.findViewById(R.id.sl_list_new_item_type);
+        newItemIsBought = (Switch)v.findViewById(R.id.sl_list_new_item_is_bought);
+        ArrayAdapter<String> spinnerAdapter = new ArrayAdapter<>(getActivity(),android.R.layout.simple_list_item_1,getActivity().getResources().getStringArray(R.array.sl_new_item_type));
+        newItemType.setAdapter(spinnerAdapter);
+        final AlertDialog newItemDialog = new AlertDialog.Builder(getActivity())
+                .setView(v)
+                .create();
+        MiscUtils.forceShowKeyboard(newItemName,newItemDialog);
+        newItemDialog.show();
+        newItemSaveButton.setEnabled(false);
+        TextWatcher watcher = new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                if(s.length()==0) {
+                    newItemSaveButton.setEnabled(false);
+                }
+                else {
+                    newItemSaveButton.setEnabled(true);
+                }
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+
+            }
+        };
+        newItemName.addTextChangedListener(watcher); // watcher to enable disable submit button
+        newItemBackButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                newItemDialog.cancel();
+            }
+        });
+        newItemSaveButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                sli=new ShoppingListItem();
+                sli.setTitle(newItemName.getText().toString());
+                sli.setId(-1);
+                sli.setBought(newItemIsBought.isChecked()?"Y":"N");
+                if(sli.isBought().equals("Y"))
+                    sli.setBought_by_name(PrefManager.getSharedVal("username"));
+                sli.setIs_dirty(1);
+                sli.setType(newItemType.getSelectedItem().toString().toUpperCase());
+                items_list.add(0,sli);
+                //asking if user wants to add more items
+                new AlertDialog.Builder(getActivity())
+                        .setTitle("Want to add another item?")
+                        .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.cancel();
+                                getNewListItemData(shoppingList);
+                            }
+                        })
+                        .setNegativeButton("No! upload List", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(final DialogInterface dialog, int which) {
+                                shoppingList.getItems().clear();
+                                shoppingList.getItems().addAll(items_list);
+                                items_list.clear();
+                                dialog.cancel();
+                                try {
+                                    uploadNewItemsToServer(shoppingList);
+                                } catch (JSONException e) {
+                                    e.printStackTrace();
+                                }
+                            }
+                        })
+                        .create().show();
+
+                newItemDialog.cancel();
+            }
+        });
+    }
+
+    private void uploadNewItemsToServer(ShoppingList shoppingList) throws JSONException {
+        Callback callback = new Callback() {
+            @Override
+            public void onSuccess(Object obj) throws JSONException, ParseException {
+                Snackbar.make((getActivity()).findViewById(android.R.id.content),"ShoppingList updated",
+                        Snackbar.LENGTH_SHORT).show();
+                //hitting API to connect new list to food menu
+                shopping_list_update_token = ((JSONObject)obj).getJSONObject("DATA").getString("INSERTION_ID");
+                attachNewListToFoodMenuEntry();
+
+            }
+
+            @Override
+            public void onFailure(Object obj) throws JSONException {
+                Snackbar.make((getActivity()).findViewById(android.R.id.content),"Server error occured",
+                        Snackbar.LENGTH_SHORT).show();
+            }
+        };
+        comManager.uploadShoppingList(getActivity(),callback,MiscUtils.shoppingListJSONParser(shoppingList));
+    }
+
+    private void attachNewListToFoodMenuEntry() {
+        Callback callback = new Callback() {
+            @Override
+            public void onSuccess(Object obj) throws JSONException, ParseException {
+                Snackbar.make(getActivity().findViewById(android.R.id.content),"Server updated and list attached to food menu!!",Snackbar.LENGTH_SHORT).show();
+            }
+            @Override
+            public void onFailure(Object obj) throws JSONException {
+                Snackbar.make(getActivity().findViewById(android.R.id.content),"list attachment failed!!",Snackbar.LENGTH_SHORT).show();
+            }
+        };
+        comManager.attachListToFood(getActivity(),food_update_token, shopping_list_update_token,callback);
+    }
+
+    private void changeFoodMenuOnServer(final AlertDialog alertDialog,final View fm_dialog){
+        uploadProgressBar.setVisibility(View.VISIBLE);
+        Callback callback = new Callback() {
+            @Override
+            public void onSuccess(Object obj) throws JSONException, ParseException {
+                uploadProgressBar.setVisibility(View.GONE);
+                if(add_to_sl.isChecked()){
+                    food_update_token = ((JSONObject)obj).getJSONObject("DATA").getString("INSERTION_ID");
+                }
+                Snackbar.make(getActivity().findViewById(android.R.id.content),"Server Updated!!",Snackbar.LENGTH_SHORT).show();
+                alertDialog.cancel();
+                getMenu();
+            }
+
+            @Override
+            public void onFailure(Object obj) throws JSONException {
+                uploadProgressBar.setVisibility(View.GONE);
+                Snackbar.make(fm_dialog,"Server error occured!!",Snackbar.LENGTH_SHORT).show();
+            }
+        };
+        try {
+            //jugad for getting date in desired format
+            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+            SimpleDateFormat sdf1 = new SimpleDateFormat("dd/MM/yyyy");
+            Date tempDate = sdf1.parse(date.getText().toString());
+            comManager.updateFoodMenu(getActivity(), name.getText().toString(), sdf.format(tempDate), day, sp.getSelectedItem().toString(), aSwitch.isChecked(), callback);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
 
     //utility function

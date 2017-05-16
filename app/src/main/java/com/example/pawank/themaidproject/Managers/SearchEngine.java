@@ -6,6 +6,7 @@ import android.util.Log;
 
 import com.example.pawank.themaidproject.DataClass.ModuleNotification;
 import com.example.pawank.themaidproject.Managers.NotificationEngine;
+import com.example.pawank.themaidproject.Services.FirebaseMainService;
 import com.example.pawank.themaidproject.utils.MiscUtils;
 
 import java.util.ArrayList;
@@ -21,13 +22,13 @@ public class SearchEngine {
 
     public SearchEngine(Context ctx){
         this.ctx=ctx;
-        this.originalActivitites = NotificationEngine.all_activities;
+        this.originalActivitites = FirebaseMainService.getAllActivities();
     }
 
 
     public ArrayList<ModuleNotification> getQueryResult(String s, Object selectedItem) {
         ArrayList<ModuleNotification> returnList = new ArrayList<>();
-        for(ModuleNotification mn : NotificationEngine.all_activities){
+        for(ModuleNotification mn : FirebaseMainService.getAllActivities()){
             Log.d(TAG,selectedItem.toString().toUpperCase());
             if(selectedItem.toString().toUpperCase().equals("MODULE")){
                 if(mn.getModule().toUpperCase().contains(s.toUpperCase()) && !s.equals("")){

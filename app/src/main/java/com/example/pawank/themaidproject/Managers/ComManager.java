@@ -47,6 +47,10 @@ public class ComManager {
 
     private String update_food_menu_module = "updateFoodMenu";
     private String update_food_menu_subModule = null;
+    private String attach_list_to_food_module = "attachListToFood";
+    private String attach_list_to_food_subModule = null;
+    private String KEY_FOOD_ID = "FOOD_ID";
+    private String KEY_SHOPPING_LIST_ID = "LIST_ID";
     private String KEY_UPDATE_FM_DISHNAME = "DISHNAME";
     private String KEY_UPDATE_FM_ISDEFAULT = "ISDEFAULT";
     private String KEY_UPDATE_FM_DATE = "DATE";
@@ -55,9 +59,14 @@ public class ComManager {
     /*****************************************/
     //*shopping list API *//
     private String get_all_shopping_list_module = "getAllLists";
-    private String get_all_shopping_list_subModule = null;
     private String update_shopping_list_module = "updateList";
+    private String delete_shopping_list_module = "deleteList";
+    private String get_all_shopping_list_subModule = null;
+
     private String KEY_LIST_JSON="LIST_JSON";
+    private String KEY_LIST_ID = "LIST_ID";
+    private String KEY_LIST_TITLE = "LIST_TITLE";
+
     /********************************************************/
     //*attendence API*//
     private String get_employee_details_module = "getEmployeeDetails";
@@ -168,6 +177,34 @@ public class ComManager {
         this.makeHttpRequest(ctx,urlToConnect,mp,currentModule,currentSubModule,callback);
     }
 
+    public void attachListToFood(Context ctx,String fInsertionId,String sIntertionId,final Callback parentCallback){
+        updateConnectionAddress();
+        Callback callback = new Callback() {
+            @Override
+            public void onSuccess(Object obj) throws JSONException, ParseException {
+                jObj = (JSONObject)obj;
+                if(jObj.getString("STATUS").equals("OK")) {
+                    parentCallback.onSuccess(obj);
+                }
+                else {
+                    parentCallback.onFailure(obj);
+                }
+            }
+            @Override
+            public void onFailure(Object obj) throws JSONException {
+                parentCallback.onFailure(jObj);
+            }
+        };
+        currentModule= attach_list_to_food_module;
+        currentSubModule= attach_list_to_food_subModule;
+        mp = new HashMap<>();
+        // MiscUtils.logD("checksum",PrefManager.getSharedVal("checksum"));
+        mp.put(KEY_CHECKSUM,PrefManager.getSharedVal("checksum"));
+        mp.put(KEY_FOOD_ID,fInsertionId);
+        mp.put(KEY_SHOPPING_LIST_ID,sIntertionId);
+        this.makeHttpRequest(ctx,urlToConnect,mp,currentModule,currentSubModule,callback);
+    }
+
     public void updateFoodMenu(Context ctx,String dishname, String date, String day,String meal, boolean isDefault, final Callback updateFoodMenuCallback) {
        updateConnectionAddress();
         Callback callback = new Callback() {
@@ -228,7 +265,6 @@ public class ComManager {
         currentModule= get_all_shopping_list_module;
         currentSubModule= get_all_shopping_list_subModule;
         mp = new HashMap<>();
-        MiscUtils.logD("checksum",PrefManager.getSharedVal("checksum"));
         mp.put(KEY_CHECKSUM,PrefManager.getSharedVal("checksum"));
         this.makeHttpRequest(ctx,urlToConnect,mp,currentModule,currentSubModule,callback);
     }
@@ -261,7 +297,35 @@ public class ComManager {
         MiscUtils.logD(TAG,"upload shoppping list:"+mp.toString());
         this.makeHttpRequest(ctx,urlToConnect,mp,currentModule,currentSubModule,callback);
     }
-    
+
+    public void deleteShoppingList(Context ctx,int list_id,String list_title,final Callback parentCallback){
+        updateConnectionAddress();
+        Callback callback = new Callback() {
+            @Override
+            public void onSuccess(Object obj) throws JSONException, ParseException {
+                jObj = (JSONObject)obj;
+                if(jObj.getString("STATUS").equals("OK")) {
+                    parentCallback.onSuccess(jObj);
+                }
+                else {
+                    parentCallback.onFailure(jObj);
+                }
+            }
+            @Override
+            public void onFailure(Object obj) throws JSONException {
+                jObj = (JSONObject)obj;
+                parentCallback.onFailure(jObj);
+            }
+        };
+        currentModule= delete_shopping_list_module;
+        currentSubModule= update_food_menu_subModule;
+        mp = new HashMap<>();
+        mp.put(KEY_CHECKSUM,PrefManager.getSharedVal("checksum"));
+        mp.put(KEY_LIST_ID,list_id+"");
+        mp.put(KEY_LIST_TITLE,list_title);
+        MiscUtils.logD(TAG,"delete shoppping list:"+mp.toString());
+        this.makeHttpRequest(ctx,urlToConnect,mp,currentModule,currentSubModule,callback);
+    }
     //**************************Attendence modules*****************************//
     public void getAllEmployeeDetails(Context ctx,final Callback parentCallback) {
         updateConnectionAddress();

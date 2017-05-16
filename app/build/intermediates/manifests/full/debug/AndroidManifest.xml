@@ -44,6 +44,7 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.example.pawank.themaidproject.SplashActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/SplashNoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -53,11 +54,17 @@
         </activity>
         <activity
             android:name="com.example.pawank.themaidproject.MainActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
-            android:windowSoftInputMode="stateAlwaysHidden" />
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <meta-data
+                android:name="android.app.default_searchable"
+                android:value=".SearchResultActivity" />
+        </activity>
         <activity
             android:name="com.example.pawank.themaidproject.LoginActivity"
             android:label="@string/title_activity_login"
+            android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
 
         <service android:name="com.example.pawank.themaidproject.Services.FirebaseMakeService" >

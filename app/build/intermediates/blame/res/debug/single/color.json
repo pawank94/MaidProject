@@ -12,20 +12,20 @@
         "source": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/color/abc_tint_switch_track.xml"
     },
     {
-        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/color/design_error.xml",
-        "source": "/home/nexusstar/.android/build-cache/e6017843b4624842e6695eafd7b383ef3eb9900a/output/res/color/design_error.xml"
-    },
-    {
         "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/color/mcv_text_date_light.xml",
         "source": "/home/nexusstar/.android/build-cache/49ebb4c9ace17a0406b5534df962f8858a47e6cd/output/res/color/mcv_text_date_light.xml"
     },
     {
-        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/color/cell_text_color.xml",
-        "source": "/home/nexusstar/.android/build-cache/4ff2c70ec6649fac2ec19a6badce0a466d02ecc4/output/res/color/cell_text_color.xml"
+        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/color/design_error.xml",
+        "source": "/home/nexusstar/.android/build-cache/e6017843b4624842e6695eafd7b383ef3eb9900a/output/res/color/design_error.xml"
     },
     {
         "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
         "source": "/home/nexusstar/.android/build-cache/e6017843b4624842e6695eafd7b383ef3eb9900a/output/res/color/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/color/abc_btn_colored_borderless_text_material.xml"
     },
     {
         "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
@@ -34,46 +34,6 @@
     {
         "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
         "source": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/color/abc_secondary_text_material_light.xml"
-    },
-    {
-        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/color/cell_text_color_dark.xml",
-        "source": "/home/nexusstar/.android/build-cache/4ff2c70ec6649fac2ec19a6badce0a466d02ecc4/output/res/color/cell_text_color_dark.xml"
-    },
-    {
-        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
-        "source": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/color/abc_primary_text_material_dark.xml"
-    },
-    {
-        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
-        "source": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/color/abc_search_url_text.xml"
-    },
-    {
-        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
-        "source": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/color/abc_tint_seek_thumb.xml"
-    },
-    {
-        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/color/common_plus_signin_btn_text_dark.xml",
-        "source": "/home/nexusstar/.android/build-cache/640e3b8fb2b72bd523e1c43cc2475f949b09fb06/output/res/color/common_plus_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
-        "source": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/color/abc_primary_text_disable_only_material_light.xml"
-    },
-    {
-        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
-        "source": "/home/nexusstar/.android/build-cache/20cb321d724875678d47693b0d956cdb6ea78294/output/res/color/common_google_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
-        "source": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/color/abc_tint_spinner.xml"
-    },
-    {
-        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
-        "source": "/home/nexusstar/.android/build-cache/20cb321d724875678d47693b0d956cdb6ea78294/output/res/color/common_google_signin_btn_text_light.xml"
-    },
-    {
-        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
-        "source": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/color/abc_btn_colored_borderless_text_material.xml"
     },
     {
         "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
@@ -92,6 +52,10 @@
         "source": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/color/abc_primary_text_material_light.xml"
     },
     {
+        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
         "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
         "source": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/color/abc_secondary_text_material_dark.xml"
     },
@@ -100,11 +64,31 @@
         "source": "/home/nexusstar/.android/build-cache/49ebb4c9ace17a0406b5534df962f8858a47e6cd/output/res/color/mcv_text_date_dark.xml"
     },
     {
+        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/color/abc_search_url_text.xml"
+    },
+    {
         "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
         "source": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/color/abc_tint_default.xml"
     },
     {
-        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/color/common_plus_signin_btn_text_light.xml",
-        "source": "/home/nexusstar/.android/build-cache/640e3b8fb2b72bd523e1c43cc2475f949b09fb06/output/res/color/common_plus_signin_btn_text_light.xml"
+        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
+        "source": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/color/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/home/nexusstar/.android/build-cache/20cb321d724875678d47693b0d956cdb6ea78294/output/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
+        "source": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/color/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
+        "source": "/home/nexusstar/.android/build-cache/20cb321d724875678d47693b0d956cdb6ea78294/output/res/color/common_google_signin_btn_text_light.xml"
     }
 ]

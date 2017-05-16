@@ -1,14 +1,17 @@
 package com.example.pawank.themaidproject.utils;
 
 import android.app.Activity;
+import android.app.Dialog;
 import android.content.Context;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
 import android.os.Environment;
+import android.os.SystemClock;
 import android.util.Log;
 import android.util.LruCache;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
@@ -32,6 +35,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.Locale;
 
 import static android.R.id.message;
 
@@ -49,6 +53,7 @@ public class MiscUtils {
     public static FileOutputStream fos = null;
     public static BufferedInputStream bis = null;
     public static BufferedOutputStream bos = null;
+    public static SimpleDateFormat STRINGDATEFORMAT = new SimpleDateFormat("EEE MMM dd kk:mm:ss z yyyy", Locale.ENGLISH);
     private static Context ctx;
 
     public static void initMiscUtil(Context context){
@@ -342,5 +347,12 @@ public class MiscUtils {
             fragment = fragment.replaceAll("_"," ");
         String to_return = fragment.substring(0,1).toUpperCase() + fragment.substring(1,fragment.length()).toLowerCase();
         return to_return;
+    }
+
+    public static void forceShowKeyboard(View v,Dialog dialog){
+        v.requestFocus();
+        dialog.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_VISIBLE);
+//        InputMethodManager imm = (InputMethodManager) ctx.getSystemService(Context.INPUT_METHOD_SERVICE);
+//        imm.showSoftInput(v, InputMethodManager.SHOW_IMPLICIT);
     }
 }

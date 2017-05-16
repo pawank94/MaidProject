@@ -2,6 +2,7 @@ package com.example.pawank.themaidproject.Adapters;
 
 import android.content.Context;
 import android.content.DialogInterface;
+import android.graphics.Typeface;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AlertDialog;
@@ -11,6 +12,7 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -23,6 +25,7 @@ import android.widget.ProgressBar;
 import android.widget.Spinner;
 import android.widget.Switch;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.pawank.themaidproject.DataClass.ShoppingList;
 import com.example.pawank.themaidproject.DataClass.ShoppingListItem;
@@ -35,6 +38,7 @@ import com.example.pawank.themaidproject.utils.MiscUtils;
 import com.example.pawank.themaidproject.Managers.PrefManager;
 
 import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.text.ParseException;
 import java.util.ArrayList;
@@ -57,13 +61,10 @@ public class ShoppingListAdapter extends RecyclerView.Adapter<ShoppingListAdapte
     private ImageView listAddItem,listToolbarBack,listToolbarUpload;
     private ImageButton newItemBackButton, newItemSaveButton;
     private Toolbar listToolbar;
-    private ListDataAdapter lda;
     private ShoppingListItem sli;
     private EditText newItemName;
     private Spinner newItemType;
     private Switch newItemIsBought;
-    private FloatingActionButton fab;
-    private boolean cardFocused;
     private ProgressBar listUploadProgressBar;
 
     public ShoppingListAdapter(Context ctx, ShoppingListFragment fr, ArrayList<ShoppingList> ar, ComManager comManager){
@@ -80,7 +81,8 @@ public class ShoppingListAdapter extends RecyclerView.Adapter<ShoppingListAdapte
 
     @Override
     public void onBindViewHolder(final ViewHold holder, final int position) {
-        holder.sl_item_list_name.setText(MiscUtils.trimmedString(ar.get(position).getTitle(),8));
+        holder.sl_item_list_name.setText(MiscUtils.trimmedString(ar.get(position).getTitle(),12));
+        holder.sl_item_list_name.setTypeface(Typeface.createFromAsset(ctx.getAssets(),"font/Roboto-Medium.ttf"));
         holder.sl_item_1.setVisibility(View.GONE);
         holder.sl_item_2.setVisibility(View.GONE);
         holder.sl_item_3.setVisibility(View.GONE);
@@ -144,10 +146,24 @@ public class ShoppingListAdapter extends RecyclerView.Adapter<ShoppingListAdapte
                         .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
-                                ar.remove(position);
-                                ad.cancel();
-                                ShoppingListAdapter.this.notifyDataSetChanged();
-                                //TODO:call delete list API
+                              Callback callback = new Callback() {
+                                  @Override
+                                  public void onSuccess(Object obj) throws JSONException, ParseException {
+
+                                      Snackbar.make(((MainActivity)ctx).findViewById(android.R.id.content),"List deleted!!", Toast.LENGTH_SHORT).show();
+                                      fr.getAllShoppingList();
+                                  }
+                                  @Override
+                                  public void onFailure(Object obj) throws JSONException {
+                                      JSONObject workObject = (JSONObject) obj;
+                                      if(workObject.getString("ERRORCODE").equals("52"))//condition Some unbought items still in list
+                                      {
+                                          Snackbar.make(((MainActivity)ctx).findViewById(android.R.id.content),"Some unbought items still in list", Toast.LENGTH_SHORT).show();
+                                      }
+                                  }
+                              };
+                              comManager.deleteShoppingList(ctx,ar.get(position).getId(),ar.get(position).getTitle(),callback);
+                            ad.cancel();
                             }
                         })
                         .setNegativeButton("No", new DialogInterface.OnClickListener() {
@@ -161,6 +177,7 @@ public class ShoppingListAdapter extends RecyclerView.Adapter<ShoppingListAdapte
                 dialog.show();
             }
         });
+
         rename.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -178,7 +195,7 @@ public class ShoppingListAdapter extends RecyclerView.Adapter<ShoppingListAdapte
                                 MiscUtils.forceHideKeyboard((MainActivity)ctx);
                                 //calling server to rename
                                 try {
-                                    uploadListToServer(view, position);
+                                    uploadListToServer(view, position,null);
                                 } catch (JSONException e) {
                                     e.printStackTrace();
                                 }
@@ -244,8 +261,25 @@ public class ShoppingListAdapter extends RecyclerView.Adapter<ShoppingListAdapte
             @Override
             public void onClick(View v) {
                 try {
-                    listUploadProgressBar.setVisibility(View.VISIBLE);
-                    uploadListToServer(listView,(int)v.getTag(R.id.list_position_in_array));
+                    if(isAtleastOneItemDirty((int)v.getTag(R.id.list_position_in_array))) {
+                        listUploadProgressBar.setVisibility(View.VISIBLE);
+                        uploadListToServer(listView, (int) v.getTag(R.id.list_position_in_array), alertDialog);
+                    }
+                    else
+                        Snackbar.make(listView,"Please Change Atleast 1 item!",Snackbar.LENGTH_SHORT).show();
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+        alertDialog.setOnCancelListener(new DialogInterface.OnCancelListener() {
+            @Override
+            public void onCancel(DialogInterface dialog) {
+                try {
+                    if(isAtleastOneItemDirty(position))
+                        uploadListToServer(listView,position,alertDialog);
+                    else
+                        Snackbar.make(fr.getActivity().findViewById(android.R.id.content),"Please Change Atleast 1 item!",Snackbar.LENGTH_SHORT).show();
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -257,12 +291,28 @@ public class ShoppingListAdapter extends RecyclerView.Adapter<ShoppingListAdapte
         listAddItem.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getNewListItemData(v,position,lda);
+                getNewListItemData(v,position);
             }
         });
     }
 
-    private ShoppingListItem getNewListItemData(final View parentView,final int position,final ListDataAdapter adapter) {
+    /*
+    This function checks if even a single item has been changed or not
+       @see #uploadListToServer()
+     */
+    private boolean isAtleastOneItemDirty(int position) {
+        ArrayList<ShoppingListItem> array = ar.get(position).getItems();
+        boolean dirtyCounter = false;
+        for(ShoppingListItem item:array){
+            if(item.getIs_dirty()==1) {
+                Log.d(TAG,item.getTitle());
+                dirtyCounter = true;
+            }
+        }
+        Log.d(TAG,"dirt"+dirtyCounter+"");
+        return dirtyCounter;
+    }
+    private void getNewListItemData(final View parentView, final int position) {
         View v = LayoutInflater.from(ctx).inflate(R.layout.layout_sl__dialog_list_data_entry,null);
         sli = null;
         newItemName = (EditText)v.findViewById(R.id.sl_list_new_item_name);
@@ -275,6 +325,7 @@ public class ShoppingListAdapter extends RecyclerView.Adapter<ShoppingListAdapte
         final AlertDialog newItemDialog = new AlertDialog.Builder(ctx)
                                         .setView(v)
                                         .create();
+        MiscUtils.forceShowKeyboard(newItemName,newItemDialog);
         newItemDialog.show();
         newItemSaveButton.setEnabled(false);
         TextWatcher watcher = new TextWatcher() {
@@ -324,7 +375,6 @@ public class ShoppingListAdapter extends RecyclerView.Adapter<ShoppingListAdapte
                 newItemDialog.cancel();
             }
         });
-        return sli;
     }
 
     class ViewHold extends RecyclerView.ViewHolder{
@@ -342,19 +392,22 @@ public class ShoppingListAdapter extends RecyclerView.Adapter<ShoppingListAdapte
         }
     }
 
-    private void uploadListToServer(final View listView, int position) throws JSONException {
+    private void uploadListToServer(final View listView, int position, final AlertDialog dialog) throws JSONException {
         Callback callback = new Callback() {
             @Override
             public void onSuccess(Object obj) throws JSONException, ParseException {
-                Snackbar.make(listView,"Uploaded to server!!",Snackbar.LENGTH_SHORT).show();
+                Snackbar.make(fr.getActivity().findViewById(android.R.id.content),"Uploaded to server!!",Snackbar.LENGTH_SHORT).show();
                 fr.getAllShoppingList();
                 if(listUploadProgressBar!=null)
                     listUploadProgressBar.setVisibility(View.GONE);
+                if(dialog!=null)
+                    dialog.hide();
             }
 
             @Override
             public void onFailure(Object obj) throws JSONException {
-                Snackbar.make(listView,"Server error occured",Snackbar.LENGTH_SHORT).show();
+                Snackbar.make(listView,"Server error occured",
+                        Snackbar.LENGTH_SHORT).show();
                 listUploadProgressBar.setVisibility(View.GONE);
             }
         };

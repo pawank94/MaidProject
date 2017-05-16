@@ -4,6 +4,10 @@
         "source": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/res/menu/at_menu.xml"
     },
     {
+        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/menu/main_menu.xml",
+        "source": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/res/menu/main_menu.xml"
+    },
+    {
         "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/menu/fm_actionbar_menu.xml",
         "source": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/res/menu/fm_actionbar_menu.xml"
     },

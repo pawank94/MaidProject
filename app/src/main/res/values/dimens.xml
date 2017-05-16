@@ -7,5 +7,6 @@
     <dimen name="font_large">18sp</dimen>
     <dimen name="font_extra_large">22sp</dimen>
     <dimen name="dialog_font">20sp</dimen>
+    <dimen name="dialog_left_margin">20dp</dimen>
     <!-- Default screen margins, per the Android Design guidelines. -->
 </resources>

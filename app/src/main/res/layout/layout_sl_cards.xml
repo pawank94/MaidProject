@@ -25,23 +25,27 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
                     <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="top"
-                    android:textSize="@dimen/font_extra_large"
-                    android:hint="List Name"
-                    android:id="@+id/sl_item_list_name"
-                    android:textColor="@color/textDarkBlack"
-                    android:textStyle="normal|bold"
-                    android:layout_marginBottom="2dp" android:layout_marginRight="5dp"
-                    android:letterSpacing="0.03" />
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:textSize="19sp"
+                        android:hint="List Name"
+                        android:id="@+id/sl_item_list_name"
+                        android:textColor="@color/textDarkBlack"
+                        android:layout_marginBottom="2dp" android:layout_marginRight="5dp"
+                        android:letterSpacing="0.03"
+                        android:textStyle="normal|bold"
+                        android:fontFamily="casual"
+                        android:textAllCaps="true"/>
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:id="@+id/sl_item_list_is_all_bought"
                         android:src="@drawable/ic_done_black"
                         android:layout_gravity="center_horizontal"
-                        android:visibility="gone"/>
+                        android:scaleX="0.7"
+                        android:scaleY="0.7"
+                        android:visibility="visible"/>
                 </LinearLayout>
                 <View
                     android:layout_width="match_parent"

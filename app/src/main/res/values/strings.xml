@@ -4,9 +4,8 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="navigation_attendence">Attendence</string>
-    <string name="navigation_mentions">Mentions</string>
+    <!--<string name="navigation_mentions">Mentions</string>-->
     <string name="navigation_console">Console</string>
-    <string name="navigation_udhar">Udhar</string>
     <string name="navigation_shopping_list">Shopping List</string>
     <string name="navigation_food_menu">Food Menu</string>
     <string name="navigation_config">Config</string>
@@ -60,4 +59,7 @@
         <item name="main_search_item_2">Date</item>
         <item name="main_search_item_3">Content</item>
     </string-array>
+
+    <!--main fragment tags-->
+    <item name="m_module_tag_name" type="id"/>
 </resources>

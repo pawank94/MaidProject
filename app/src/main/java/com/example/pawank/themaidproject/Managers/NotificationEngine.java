@@ -7,6 +7,8 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Typeface;
 import android.media.Ringtone;
 import android.media.RingtoneManager;
@@ -28,13 +30,16 @@ import com.example.pawank.themaidproject.DataClass.ModuleNotification;
 import com.example.pawank.themaidproject.MainActivity;
 import com.example.pawank.themaidproject.R;
 import com.example.pawank.themaidproject.Services.FirebaseMainService;
+import com.example.pawank.themaidproject.SplashActivity;
 import com.example.pawank.themaidproject.utils.MiscUtils;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.Queue;
 
@@ -50,13 +55,10 @@ public class NotificationEngine {
     public static final String FRAGMENT_SHOPPING_LIST = "SHOPPING_LIST";
     private static final String N_ACTION_FILTER = "NOTIFICATION_DISMISS";
     public static final int MAX_ACTIVITY_COUNT = 10;
-    private TextView nModule;
-    private ListView nList;
-    private ArrayList<ModuleNotification> array_attendence,array_food_menu,array_shopping_list;
+    private static ArrayList<ModuleNotification> array_attendence=null,array_food_menu=null,array_shopping_list=null;
     private String TAG="Notification Engine";
     public static String EXTRA_FRAGMENT="fragment";
     private NotificationManager notificationManager=null;
-    public static ArrayList<ModuleNotification> all_activities;
     private Handler mHandler;
     SimpleDateFormat sdf;
 
@@ -65,14 +67,12 @@ public class NotificationEngine {
         array_attendence = new ArrayList<>();
         array_food_menu = new ArrayList<>();
         array_shopping_list = new ArrayList<>();
-        sdf = new SimpleDateFormat("dd MMM, HH a");
+        sdf = new SimpleDateFormat("dd MMM, hh:mm a");
         mHandler = new Handler(Looper.getMainLooper());
         initReceiver();
     }
 
-    public static void initActivitiesArray(Context ctx){
-        all_activities = new SQLManager(ctx).getActivities();
-    }
+
 
     private void initReceiver() {
         final BroadcastReceiver br = new BroadcastReceiver() {
@@ -114,15 +114,21 @@ public class NotificationEngine {
             }
         }
         for(ModuleNotification mn : array) {
-            String content = mn.getDate()+":  "+mn.getnContent()+"\n";
-            Spannable temp = new SpannableString(content);
-            temp.setSpan(new StyleSpan(Typeface.BOLD),0,mn.getnContent().indexOf(":")+1,Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
-            s.append(temp);
+            try {
+                //Calendar dateCal = Calendar.getInstance();
+                String content =  sdf.format(MiscUtils.STRINGDATEFORMAT.parse(mn.getDate()))+":  "+mn.getnContent()+"\n";
+                Spannable temp = new SpannableString(content);
+                //search the second index of ':'
+                temp.setSpan(new StyleSpan(Typeface.BOLD),0,content.indexOf(":",content.indexOf(":")+1)+1,Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                s.append(temp);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
             //nStyle.addLine(mn.getDate()+": "+ MiscUtils.notificationContentFormat(mn.getnContent()));
         }
         nStyle.bigText(s);
         //*****************pending Intent**************//
-        Intent in = new Intent(ctx,MainActivity.class);
+        Intent in = new Intent(ctx,SplashActivity.class);
         in.putExtra(EXTRA_FRAGMENT,getNotificationCode(fragment));
         PendingIntent pi = PendingIntent.getActivity(ctx,1,in,PendingIntent.FLAG_CANCEL_CURRENT);
         Intent dismiss = new Intent(N_ACTION_FILTER);
@@ -131,7 +137,7 @@ public class NotificationEngine {
         //********************************************//
         Notification n = new NotificationCompat.Builder(ctx)
                 .setSmallIcon(R.mipmap.ic_launcher)
-                .setLargeIcon(MiscUtils.getBitmap("launcher_icon"))
+                .setLargeIcon(BitmapFactory.decodeResource(ctx.getResources(),R.drawable.ic_maid))
                 .setContentTitle(MiscUtils.getNotificationStyleTitle(fragment))
                 .setContentText(array.size()+" "+((array.size()==1)?"activity":"activities"))
                 .setStyle(nStyle)
@@ -141,6 +147,7 @@ public class NotificationEngine {
                 .build();
         //*- to cancel notification after click*//
         n.flags |= Notification.FLAG_AUTO_CANCEL;
+        Log.d(TAG,"notification here");
         notificationManager.notify(getNotificationCode(fragment), n);
         //functionality of removing notification if application is opened
         if(MainActivity.isOpened){
@@ -162,42 +169,42 @@ public class NotificationEngine {
 //    }
 
     private void amendArrayList(String fragment, JSONArray activities) {
-            Log.d(TAG,sdf.format(new Date()));
+        Log.d(TAG,sdf.format(new Date()));
         try {
-            if(all_activities.size()>MAX_ACTIVITY_COUNT)
-                all_activities.remove(all_activities.size()-1);
+            if(FirebaseMainService.getAllActivities().size()>MAX_ACTIVITY_COUNT)
+                FirebaseMainService.getAllActivities().remove(FirebaseMainService.getAllActivities().size()-1);
             switch (fragment) {
                 case FRAGMENT_ATTENDENCE:
                     for (int i = 0; i < activities.length(); i++) {
                         ModuleNotification mn = new ModuleNotification();
                         JSONObject workObject = activities.getJSONObject(i);
-                        mn.setDate(sdf.format(new Date()));
+                        mn.setDate(new Date().toString());
                         mn.setnContent(workObject.getString("CONTENT"));
                         mn.setModule("Attendance");
                         array_attendence.add(mn);
-                        all_activities.add(0,mn);
+                        FirebaseMainService.getAllActivities().add(0,mn);
                     }
                     break;
                 case FRAGMENT_SHOPPING_LIST:
                     for (int i = 0; i < activities.length(); i++) {
                         ModuleNotification mn = new ModuleNotification();
                         JSONObject workObject = activities.getJSONObject(i);
-                        mn.setDate(sdf.format(new Date()));
+                        mn.setDate(new Date().toString());
                         mn.setnContent(workObject.getString("CONTENT"));
                         mn.setModule("Shopping_List");
                         array_shopping_list.add(mn);
-                        all_activities.add(0,mn);
+                        FirebaseMainService.getAllActivities().add(0,mn);
                     }
                     break;
                 case FRAGMENT_FOOD_MENU:
                     for (int i = 0; i < activities.length(); i++) {
                         ModuleNotification mn = new ModuleNotification();
                         JSONObject workObject = activities.getJSONObject(i);
-                        mn.setDate(sdf.format(new Date()));
+                        mn.setDate(new Date().toString());
                         mn.setnContent(workObject.getString("CONTENT"));
                         mn.setModule("food_menu");
                         array_food_menu.add(mn);
-                        all_activities.add(0,mn);
+                        FirebaseMainService.getAllActivities().add(0,mn);
                     }
                     break;
             }
@@ -234,5 +241,20 @@ public class NotificationEngine {
         if(notificationManager!=null){
             notificationManager.cancel(getNotificationCode(fragment));
         }
+    }
+
+    public static void dismissAllNotifications(Context ctx){
+        NotificationManager mNotificationManager = (NotificationManager) ctx.getSystemService(Context.NOTIFICATION_SERVICE);
+        mNotificationManager.cancelAll();
+        clearActivitiesArray();
+    }
+
+    public static void clearActivitiesArray() {
+        if(array_food_menu!=null)
+            array_food_menu.clear();
+        if(array_attendence!=null)
+            array_attendence.clear();
+        if(array_shopping_list!=null)
+            array_shopping_list.clear();
     }
 }
