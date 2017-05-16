@@ -1,0 +1,34 @@
+1.3-
+shopping list- item font changed + colored dots are introduced
+Notification dismisal if app is opened removed
+
+1.4-
+Misc util- force show keyboard on dialogs
+main fragment - make activities clickable
+drawer- mentions and udhar removed
+bug fixes
+
+1.4.1
+AM Pm in notification fixed
+close list after upload
+Upload list if back pressed
+Notification array reset fixed
+
+1.4.2
+bug fixes-
+oncheckedlistener changed to onclicklistener listDataadapter due to wrong firing of check event
+check if list has been changed on list dismissal
+moved all_activities array to service
+
+1.5
+integration of shopping list in food menu
+
+1.6
+bug fixes
+landscape mode disabled from manifest
+time will show minutes too on mainfragment
+notification fixed by dismissal of all notifications and array at splash
+startup time optimized using threads
+Delete shopping feature integration
+change in shopping list in food menu - new menu will be created every time
+attachment of shopping list to food menu done
