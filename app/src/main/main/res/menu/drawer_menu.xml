@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/navigation_view_menu_group_1">
+        <item
+            android:title="@string/navigation_attendence"
+            android:id="@+id/drawer_attendence"
+            android:icon="@drawable/ic_attendence"
+            />
+        <!--<item-->
+            <!--android:title="@string/navigation_mentions"-->
+            <!--android:id="@+id/drawer_mentions"-->
+            <!--android:icon="@drawable/ic_mentions"-->
+            <!--/>-->
+        <item
+            android:title="@string/navigation_shopping_list"
+            android:id="@+id/drawer_shopping_list"
+            android:icon="@drawable/ic_list"
+            />
+        <item
+            android:title="@string/navigation_food_menu"
+            android:id="@+id/drawer_food_menu"
+            android:icon="@drawable/ic_menu"
+            />
+    </group>
+    <group android:id="@+id/navigation_view_menu_group_2">
+        <item
+            android:title="@string/navigation_console"
+            android:id="@+id/drawer_console"
+            android:icon="@drawable/ic_console"
+            />
+        <item
+            android:title="@string/navigation_config"
+            android:id="@+id/drawer_config"
+            android:icon="@drawable/ic_config"/>
+    </group>
+</menu>

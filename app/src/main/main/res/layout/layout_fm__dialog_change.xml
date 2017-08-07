@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="?attr/actionBarTheme"
+        android:minHeight="?attr/actionBarSize"
+        android:id="@+id/toolbar2" >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                android:id="@+id/fm_change_dialog_back"
+                android:src="@drawable/ic_arrow_back_white"
+                android:background="@android:color/transparent"
+
+                 />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:id="@+id/fm_change_dialog_save"
+                android:scaleX="1.1"
+                android:scaleY="1.1"
+                android:src="@drawable/ic_done_white"
+                android:background="@android:color/transparent"
+
+                android:layout_marginRight="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/fm_change_dialog_title"
+                android:layout_height="wrap_content"
+                android:text="Change Food Details"
+                android:textSize="@dimen/dialog_font"
+                android:textStyle="normal|bold"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_vertical"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/fm_change_dialog_back"
+                android:textAlignment="gravity"
+                android:gravity="center_vertical"
+
+                android:layout_marginStart="10dp" />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fm_change_meal_progressBar"
+        android:indeterminate="true"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="24dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:id="@+id/editText5"
+            android:layout_marginEnd="24dp"
+            android:hint="Food Name" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_below="@+id/editText5"
+            android:layout_alignStart="@+id/editText5"
+            android:layout_marginTop="24dp"
+            android:id="@+id/editText7"
+            android:layout_alignEnd="@+id/editText5"
+            android:focusable="false" />
+
+        <Switch
+            android:text="Set this dish as default"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/switch2"
+            android:layout_marginTop="24dp"
+            android:splitTrack="false"
+            android:textSize="16sp"
+            android:checked="false"
+            android:layout_below="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_alignEnd="@+id/editText7" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/switch2"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_marginTop="24dp"
+            android:id="@+id/spinner"
+            android:layout_alignEnd="@+id/editText7"
+            />
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spinner"
+            android:layout_marginTop="16dp"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_alignEnd="@+id/editText7"
+            android:text="want to add entry in shopping list?"
+            android:textSize="16sp"
+            android:id="@+id/fm_add_to_sl"/>
+
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">TheMaidProject</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_attendence">Attendence</string>
+    <!--<string name="navigation_mentions">Mentions</string>-->
+    <string name="navigation_console">Console</string>
+    <string name="navigation_shopping_list">Shopping List</string>
+    <string name="navigation_food_menu">Food Menu</string>
+    <string name="navigation_config">Config</string>
+
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Strings related to login -->
+
+    <!-- Strings related to food menu recycler menu -->
+    <string name="fm_menu_item_1">1</string>
+    <string name="fm_menu_item_2">1</string>
+    <string name="main_search_icon_title">Search</string>
+    <string name="search_hint">Search</string>
+
+    <!-- food menu update -->
+    <string-array name="fm_update_meal_dropdown">
+        <item name="fm_update_meal_1">Breakfast</item>
+        <item name="fm_update_meal_2">Dinner</item>
+    </string-array>
+    <!--set tag for different application-->
+    <!--shopping list adapter-->
+    <item name="list_data_adpter" type="id"></item>
+    <item name="list_data_array" type="id"></item>
+    <item name="list_position_in_array" type="id"></item>
+    <!--new item spinner values-->
+    <string-array name="sl_new_item_type">
+        <item name="sl_new_item_1">Staple</item>
+        <item name="sl_new_item_2">Veggy</item>
+        <item name="sl_new_item_3">Utility</item>
+    </string-array>
+    <!--attendence report absent spinner-->
+    <string-array name="at_report_absent_dropdown">
+        <item name="at_report_absent_1">Morning</item>
+        <item name="at_report_absent_2">Evening</item>
+    </string-array>
+
+    <string-array name="at_report_absent_dropdown_one_shift_m">
+        <item name="at_report_absent_1">Morning</item>
+    </string-array>
+
+    <string-array name="at_report_absent_dropdown_one_shift_e">
+        <item name="at_report_absent_1">Evening</item>
+    </string-array>
+
+    <!--main search menu Spinner-->
+    <string-array name="main_search">
+        <item name="main_search_item_1">Module</item>
+        <item name="main_search_item_2">Date</item>
+        <item name="main_search_item_3">Content</item>
+    </string-array>
+
+    <!--main fragment tags-->
+    <item name="m_module_tag_name" type="id"/>
+</resources>

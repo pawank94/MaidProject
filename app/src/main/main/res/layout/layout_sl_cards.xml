@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="200dp"
+        android:layout_margin="10dp"
+        android:elevation="15dp"
+        android:focusable="true"
+        android:id="@+id/sl_card_view">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:focusable="false"
+                android:descendantFocusability="blocksDescendants"
+                android:orientation="vertical"
+                android:padding="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:textSize="19sp"
+                        android:hint="List Name"
+                        android:id="@+id/sl_item_list_name"
+                        android:textColor="@color/textDarkBlack"
+                        android:layout_marginBottom="2dp" android:layout_marginRight="5dp"
+                        android:letterSpacing="0.03"
+                        android:textStyle="normal|bold"
+                        android:fontFamily="casual"
+                        android:textAllCaps="true"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/sl_item_list_is_all_bought"
+                        android:src="@drawable/ic_done_black"
+                        android:layout_gravity="center_horizontal"
+                        android:scaleX="0.7"
+                        android:scaleY="0.7"
+                        android:visibility="visible"/>
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/textDarkBlack"
+                    android:layout_marginBottom="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="item1"
+                    android:layout_marginBottom="5sp"
+                    android:id="@+id/sl_item_1"
+                    android:textSize="@dimen/font_large"
+                    android:letterSpacing="0.02" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="item2"
+                    android:layout_marginBottom="5sp"
+                    android:id="@+id/sl_item_2"
+                    android:textSize="@dimen/font_large"
+                    android:letterSpacing="0.02" />
+
+                <TextView
+                    android:text="..."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sl_item_3"
+                    android:textStyle="normal|bold"
+                    android:letterSpacing="0.02" />
+            </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

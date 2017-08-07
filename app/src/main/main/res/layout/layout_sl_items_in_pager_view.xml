@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:id="@+id/sl_sorted_toolbar"
+            android:alpha="0.7"
+            android:elevation="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="10dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Heading"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/font_large"
+                android:textColor="@color/cardview_light_background"
+                android:fontFamily="sans-serif-smallcaps"
+                android:id="@+id/sl_sorted_heading"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_cloud_upload_white"
+                android:layout_alignParentEnd="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:layout_marginRight="10dp"
+                android:id="@+id/sl_sorted_upload"/>
+        </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:layout_margin="10dp"
+        >
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/sl_sorted_recycler_view"
+            android:layout_margin="15dp"/>
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
