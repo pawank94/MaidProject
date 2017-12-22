@@ -120,6 +120,10 @@
         "source": "/home/nexusstar/.android/build-cache/20cb321d724875678d47693b0d956cdb6ea78294/output/res/drawable/common_google_signin_btn_text_dark_focused.xml"
     },
     {
+        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/drawable/_splash_background.xml",
+        "source": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/res/drawable/_splash_background.xml"
+    },
+    {
         "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
         "source": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/drawable/abc_ic_go_search_api_material.xml"
     },

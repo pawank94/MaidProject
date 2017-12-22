@@ -132,6 +132,10 @@
         "source": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/generated/res/pngs/debug/drawable-hdpi/ic_console_enter.png"
     },
     {
+        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_cloud_upload_white.png",
+        "source": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/generated/res/pngs/debug/drawable-hdpi/ic_cloud_upload_white.png"
+    },
+    {
         "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_maid.png",
         "source": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/generated/res/pngs/debug/drawable-hdpi/ic_maid.png"
     },
@@ -154,6 +158,10 @@
     {
         "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_small_dot_for_utility.png",
         "source": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/generated/res/pngs/debug/drawable-hdpi/ic_small_dot_for_utility.png"
+    },
+    {
+        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_view_list_white.png",
+        "source": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/generated/res/pngs/debug/drawable-hdpi/ic_view_list_white.png"
     },
     {
         "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_menu_gallery.png",

@@ -6660,11 +6660,11 @@
                 "from": {
                     "file": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/res/values/styles.xml",
                     "position": {
-                        "startLine": 18,
+                        "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 740,
+                        "startOffset": 644,
                         "endColumn": 90,
-                        "endOffset": 826
+                        "endOffset": 730
                     }
                 }
             },
@@ -6679,11 +6679,11 @@
                 "from": {
                     "file": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/res/values/styles.xml",
                     "position": {
-                        "startLine": 20,
+                        "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 834,
+                        "startOffset": 738,
                         "endColumn": 79,
-                        "endOffset": 909
+                        "endOffset": 813
                     }
                 }
             },
@@ -9542,12 +9542,12 @@
                 "from": {
                     "file": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/res/values/styles.xml",
                     "position": {
-                        "startLine": 22,
+                        "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 917,
-                        "endLine": 26,
+                        "startOffset": 821,
+                        "endLine": 23,
                         "endColumn": 12,
-                        "endOffset": 1206
+                        "endOffset": 1110
                     }
                 }
             },
@@ -9625,11 +9625,11 @@
                 "from": {
                     "file": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/res/values/styles.xml",
                     "position": {
-                        "startLine": 16,
+                        "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 658,
+                        "startOffset": 562,
                         "endColumn": 78,
-                        "endOffset": 732
+                        "endOffset": 636
                     }
                 }
             },
@@ -10054,9 +10054,9 @@
                     "startLine": 1977,
                     "startColumn": 4,
                     "startOffset": 138551,
-                    "endLine": 1981,
+                    "endLine": 1979,
                     "endColumn": 12,
-                    "endOffset": 138813
+                    "endOffset": 138721
                 },
                 "from": {
                     "file": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/res/values/styles.xml",
@@ -10064,19 +10064,19 @@
                         "startLine": 10,
                         "startColumn": 4,
                         "startOffset": 384,
-                        "endLine": 14,
+                        "endLine": 12,
                         "endColumn": 12,
-                        "endOffset": 650
+                        "endOffset": 556
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 1982,
+                    "startLine": 1980,
                     "startColumn": 4,
-                    "startOffset": 138818,
+                    "startOffset": 138726,
                     "endColumn": 83,
-                    "endOffset": 138897
+                    "endOffset": 138805
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10091,11 +10091,11 @@
             },
             {
                 "to": {
-                    "startLine": 1983,
+                    "startLine": 1981,
                     "startColumn": 4,
-                    "startOffset": 138902,
+                    "startOffset": 138810,
                     "endColumn": 95,
-                    "endOffset": 138993
+                    "endOffset": 138901
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10110,11 +10110,11 @@
             },
             {
                 "to": {
-                    "startLine": 1984,
+                    "startLine": 1982,
                     "startColumn": 4,
-                    "startOffset": 138998,
+                    "startOffset": 138906,
                     "endColumn": 95,
-                    "endOffset": 139089
+                    "endOffset": 138997
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10129,11 +10129,11 @@
             },
             {
                 "to": {
-                    "startLine": 1985,
+                    "startLine": 1983,
                     "startColumn": 4,
-                    "startOffset": 139094,
+                    "startOffset": 139002,
                     "endColumn": 97,
-                    "endOffset": 139187
+                    "endOffset": 139095
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10148,11 +10148,11 @@
             },
             {
                 "to": {
-                    "startLine": 1986,
+                    "startLine": 1984,
                     "startColumn": 4,
-                    "startOffset": 139192,
+                    "startOffset": 139100,
                     "endColumn": 99,
-                    "endOffset": 139287
+                    "endOffset": 139195
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10167,11 +10167,11 @@
             },
             {
                 "to": {
-                    "startLine": 1987,
+                    "startLine": 1985,
                     "startColumn": 4,
-                    "startOffset": 139292,
+                    "startOffset": 139200,
                     "endColumn": 101,
-                    "endOffset": 139389
+                    "endOffset": 139297
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10186,11 +10186,11 @@
             },
             {
                 "to": {
-                    "startLine": 1988,
+                    "startLine": 1986,
                     "startColumn": 4,
-                    "startOffset": 139394,
+                    "startOffset": 139302,
                     "endColumn": 101,
-                    "endOffset": 139491
+                    "endOffset": 139399
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10205,11 +10205,11 @@
             },
             {
                 "to": {
-                    "startLine": 1989,
+                    "startLine": 1987,
                     "startColumn": 4,
-                    "startOffset": 139496,
+                    "startOffset": 139404,
                     "endColumn": 101,
-                    "endOffset": 139593
+                    "endOffset": 139501
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10224,11 +10224,11 @@
             },
             {
                 "to": {
-                    "startLine": 1990,
+                    "startLine": 1988,
                     "startColumn": 4,
-                    "startOffset": 139598,
+                    "startOffset": 139506,
                     "endColumn": 101,
-                    "endOffset": 139695
+                    "endOffset": 139603
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10243,11 +10243,11 @@
             },
             {
                 "to": {
-                    "startLine": 1991,
+                    "startLine": 1989,
                     "startColumn": 4,
-                    "startOffset": 139700,
+                    "startOffset": 139608,
                     "endColumn": 101,
-                    "endOffset": 139797
+                    "endOffset": 139705
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10262,11 +10262,11 @@
             },
             {
                 "to": {
-                    "startLine": 1992,
+                    "startLine": 1990,
                     "startColumn": 4,
-                    "startOffset": 139802,
+                    "startOffset": 139710,
                     "endColumn": 99,
-                    "endOffset": 139897
+                    "endOffset": 139805
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10281,11 +10281,11 @@
             },
             {
                 "to": {
-                    "startLine": 1993,
+                    "startLine": 1991,
                     "startColumn": 4,
-                    "startOffset": 139902,
+                    "startOffset": 139810,
                     "endColumn": 95,
-                    "endOffset": 139993
+                    "endOffset": 139901
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10300,11 +10300,11 @@
             },
             {
                 "to": {
-                    "startLine": 1994,
+                    "startLine": 1992,
                     "startColumn": 4,
-                    "startOffset": 139998,
+                    "startOffset": 139906,
                     "endColumn": 111,
-                    "endOffset": 140105
+                    "endOffset": 140013
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10319,11 +10319,11 @@
             },
             {
                 "to": {
-                    "startLine": 1995,
+                    "startLine": 1993,
                     "startColumn": 4,
-                    "startOffset": 140110,
+                    "startOffset": 140018,
                     "endColumn": 128,
-                    "endOffset": 140234
+                    "endOffset": 140142
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10338,11 +10338,11 @@
             },
             {
                 "to": {
-                    "startLine": 1996,
+                    "startLine": 1994,
                     "startColumn": 4,
-                    "startOffset": 140239,
+                    "startOffset": 140147,
                     "endColumn": 122,
-                    "endOffset": 140357
+                    "endOffset": 140265
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10357,11 +10357,11 @@
             },
             {
                 "to": {
-                    "startLine": 1997,
+                    "startLine": 1995,
                     "startColumn": 4,
-                    "startOffset": 140362,
+                    "startOffset": 140270,
                     "endColumn": 130,
-                    "endOffset": 140488
+                    "endOffset": 140396
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10376,11 +10376,11 @@
             },
             {
                 "to": {
-                    "startLine": 1998,
+                    "startLine": 1996,
                     "startColumn": 4,
-                    "startOffset": 140493,
+                    "startOffset": 140401,
                     "endColumn": 130,
-                    "endOffset": 140619
+                    "endOffset": 140527
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10395,11 +10395,11 @@
             },
             {
                 "to": {
-                    "startLine": 1999,
+                    "startLine": 1997,
                     "startColumn": 4,
-                    "startOffset": 140624,
+                    "startOffset": 140532,
                     "endColumn": 97,
-                    "endOffset": 140717
+                    "endOffset": 140625
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10414,11 +10414,11 @@
             },
             {
                 "to": {
-                    "startLine": 2000,
+                    "startLine": 1998,
                     "startColumn": 4,
-                    "startOffset": 140722,
+                    "startOffset": 140630,
                     "endColumn": 113,
-                    "endOffset": 140831
+                    "endOffset": 140739
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10433,11 +10433,11 @@
             },
             {
                 "to": {
-                    "startLine": 2001,
+                    "startLine": 1999,
                     "startColumn": 4,
-                    "startOffset": 140836,
+                    "startOffset": 140744,
                     "endColumn": 93,
-                    "endOffset": 140925
+                    "endOffset": 140833
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10452,12 +10452,12 @@
             },
             {
                 "to": {
-                    "startLine": 2002,
+                    "startLine": 2000,
                     "startColumn": 4,
-                    "startOffset": 140930,
-                    "endLine": 2003,
+                    "startOffset": 140838,
+                    "endLine": 2001,
                     "endColumn": 12,
-                    "endOffset": 141065
+                    "endOffset": 140973
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10473,12 +10473,12 @@
             },
             {
                 "to": {
-                    "startLine": 2004,
+                    "startLine": 2002,
                     "startColumn": 4,
-                    "startOffset": 141070,
-                    "endLine": 2005,
+                    "startOffset": 140978,
+                    "endLine": 2003,
                     "endColumn": 12,
-                    "endOffset": 141199
+                    "endOffset": 141107
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10494,11 +10494,11 @@
             },
             {
                 "to": {
-                    "startLine": 2006,
+                    "startLine": 2004,
                     "startColumn": 4,
-                    "startOffset": 141204,
+                    "startOffset": 141112,
                     "endColumn": 95,
-                    "endOffset": 141295
+                    "endOffset": 141203
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10513,11 +10513,11 @@
             },
             {
                 "to": {
-                    "startLine": 2007,
+                    "startLine": 2005,
                     "startColumn": 4,
-                    "startOffset": 141300,
+                    "startOffset": 141208,
                     "endColumn": 111,
-                    "endOffset": 141407
+                    "endOffset": 141315
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10532,11 +10532,11 @@
             },
             {
                 "to": {
-                    "startLine": 2008,
+                    "startLine": 2006,
                     "startColumn": 4,
-                    "startOffset": 141412,
+                    "startOffset": 141320,
                     "endColumn": 99,
-                    "endOffset": 141507
+                    "endOffset": 141415
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10551,11 +10551,11 @@
             },
             {
                 "to": {
-                    "startLine": 2009,
+                    "startLine": 2007,
                     "startColumn": 4,
-                    "startOffset": 141512,
+                    "startOffset": 141420,
                     "endColumn": 115,
-                    "endOffset": 141623
+                    "endOffset": 141531
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10570,11 +10570,11 @@
             },
             {
                 "to": {
-                    "startLine": 2010,
+                    "startLine": 2008,
                     "startColumn": 4,
-                    "startOffset": 141628,
+                    "startOffset": 141536,
                     "endColumn": 95,
-                    "endOffset": 141719
+                    "endOffset": 141627
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10589,11 +10589,11 @@
             },
             {
                 "to": {
-                    "startLine": 2011,
+                    "startLine": 2009,
                     "startColumn": 4,
-                    "startOffset": 141724,
+                    "startOffset": 141632,
                     "endColumn": 111,
-                    "endOffset": 141831
+                    "endOffset": 141739
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10608,12 +10608,12 @@
             },
             {
                 "to": {
-                    "startLine": 2012,
+                    "startLine": 2010,
                     "startColumn": 4,
-                    "startOffset": 141836,
-                    "endLine": 2013,
+                    "startOffset": 141744,
+                    "endLine": 2011,
                     "endColumn": 12,
-                    "endOffset": 141971
+                    "endOffset": 141879
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10629,11 +10629,11 @@
             },
             {
                 "to": {
-                    "startLine": 2014,
+                    "startLine": 2012,
                     "startColumn": 4,
-                    "startOffset": 141976,
+                    "startOffset": 141884,
                     "endColumn": 135,
-                    "endOffset": 142107
+                    "endOffset": 142015
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10648,12 +10648,12 @@
             },
             {
                 "to": {
-                    "startLine": 2015,
+                    "startLine": 2013,
                     "startColumn": 4,
-                    "startOffset": 142112,
-                    "endLine": 2016,
+                    "startOffset": 142020,
+                    "endLine": 2014,
                     "endColumn": 12,
-                    "endOffset": 142271
+                    "endOffset": 142179
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10669,11 +10669,11 @@
             },
             {
                 "to": {
-                    "startLine": 2017,
+                    "startLine": 2015,
                     "startColumn": 4,
-                    "startOffset": 142276,
+                    "startOffset": 142184,
                     "endColumn": 129,
-                    "endOffset": 142401
+                    "endOffset": 142309
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10688,12 +10688,12 @@
             },
             {
                 "to": {
-                    "startLine": 2018,
+                    "startLine": 2016,
                     "startColumn": 4,
-                    "startOffset": 142406,
-                    "endLine": 2019,
+                    "startOffset": 142314,
+                    "endLine": 2017,
                     "endColumn": 12,
-                    "endOffset": 142559
+                    "endOffset": 142467
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10709,12 +10709,12 @@
             },
             {
                 "to": {
-                    "startLine": 2020,
+                    "startLine": 2018,
                     "startColumn": 4,
-                    "startOffset": 142564,
-                    "endLine": 2021,
+                    "startOffset": 142472,
+                    "endLine": 2019,
                     "endColumn": 12,
-                    "endOffset": 142709
+                    "endOffset": 142617
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10730,11 +10730,11 @@
             },
             {
                 "to": {
-                    "startLine": 2022,
+                    "startLine": 2020,
                     "startColumn": 4,
-                    "startOffset": 142714,
+                    "startOffset": 142622,
                     "endColumn": 140,
-                    "endOffset": 142850
+                    "endOffset": 142758
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10749,12 +10749,12 @@
             },
             {
                 "to": {
-                    "startLine": 2023,
+                    "startLine": 2021,
                     "startColumn": 4,
-                    "startOffset": 142855,
-                    "endLine": 2024,
+                    "startOffset": 142763,
+                    "endLine": 2022,
                     "endColumn": 12,
-                    "endOffset": 142994
+                    "endOffset": 142902
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10770,11 +10770,11 @@
             },
             {
                 "to": {
-                    "startLine": 2025,
+                    "startLine": 2023,
                     "startColumn": 4,
-                    "startOffset": 142999,
+                    "startOffset": 142907,
                     "endColumn": 134,
-                    "endOffset": 143129
+                    "endOffset": 143037
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10789,11 +10789,11 @@
             },
             {
                 "to": {
-                    "startLine": 2026,
+                    "startLine": 2024,
                     "startColumn": 4,
-                    "startOffset": 143134,
+                    "startOffset": 143042,
                     "endColumn": 111,
-                    "endOffset": 143241
+                    "endOffset": 143149
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10808,11 +10808,11 @@
             },
             {
                 "to": {
-                    "startLine": 2027,
+                    "startLine": 2025,
                     "startColumn": 4,
-                    "startOffset": 143246,
+                    "startOffset": 143154,
                     "endColumn": 127,
-                    "endOffset": 143369
+                    "endOffset": 143277
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10827,12 +10827,12 @@
             },
             {
                 "to": {
-                    "startLine": 2028,
+                    "startLine": 2026,
                     "startColumn": 4,
-                    "startOffset": 143374,
-                    "endLine": 2029,
+                    "startOffset": 143282,
+                    "endLine": 2027,
                     "endColumn": 12,
-                    "endOffset": 143505
+                    "endOffset": 143413
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10848,11 +10848,11 @@
             },
             {
                 "to": {
-                    "startLine": 2030,
+                    "startLine": 2028,
                     "startColumn": 4,
-                    "startOffset": 143510,
+                    "startOffset": 143418,
                     "endColumn": 131,
-                    "endOffset": 143637
+                    "endOffset": 143545
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10867,11 +10867,11 @@
             },
             {
                 "to": {
-                    "startLine": 2031,
+                    "startLine": 2029,
                     "startColumn": 4,
-                    "startOffset": 143642,
+                    "startOffset": 143550,
                     "endColumn": 129,
-                    "endOffset": 143767
+                    "endOffset": 143675
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10886,11 +10886,11 @@
             },
             {
                 "to": {
-                    "startLine": 2032,
+                    "startLine": 2030,
                     "startColumn": 4,
-                    "startOffset": 143772,
+                    "startOffset": 143680,
                     "endColumn": 129,
-                    "endOffset": 143897
+                    "endOffset": 143805
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10905,11 +10905,11 @@
             },
             {
                 "to": {
-                    "startLine": 2033,
+                    "startLine": 2031,
                     "startColumn": 4,
-                    "startOffset": 143902,
+                    "startOffset": 143810,
                     "endColumn": 111,
-                    "endOffset": 144009
+                    "endOffset": 143917
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10924,11 +10924,11 @@
             },
             {
                 "to": {
-                    "startLine": 2034,
+                    "startLine": 2032,
                     "startColumn": 4,
-                    "startOffset": 144014,
+                    "startOffset": 143922,
                     "endColumn": 139,
-                    "endOffset": 144149
+                    "endOffset": 144057
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -10943,12 +10943,12 @@
             },
             {
                 "to": {
-                    "startLine": 2035,
+                    "startLine": 2033,
                     "startColumn": 4,
-                    "startOffset": 144154,
-                    "endLine": 2037,
+                    "startOffset": 144062,
+                    "endLine": 2035,
                     "endColumn": 12,
-                    "endOffset": 144350
+                    "endOffset": 144258
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/e6017843b4624842e6695eafd7b383ef3eb9900a/output/res/values/values.xml",
@@ -10964,11 +10964,11 @@
             },
             {
                 "to": {
-                    "startLine": 2038,
+                    "startLine": 2036,
                     "startColumn": 4,
-                    "startOffset": 144355,
+                    "startOffset": 144263,
                     "endColumn": 91,
-                    "endOffset": 144442
+                    "endOffset": 144350
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/e6017843b4624842e6695eafd7b383ef3eb9900a/output/res/values/values.xml",
@@ -10983,12 +10983,12 @@
             },
             {
                 "to": {
-                    "startLine": 2039,
+                    "startLine": 2037,
                     "startColumn": 4,
-                    "startOffset": 144447,
-                    "endLine": 2041,
+                    "startOffset": 144355,
+                    "endLine": 2039,
                     "endColumn": 12,
-                    "endOffset": 144621
+                    "endOffset": 144529
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/e6017843b4624842e6695eafd7b383ef3eb9900a/output/res/values/values.xml",
@@ -11004,12 +11004,12 @@
             },
             {
                 "to": {
-                    "startLine": 2042,
+                    "startLine": 2040,
                     "startColumn": 4,
-                    "startOffset": 144626,
-                    "endLine": 2044,
+                    "startOffset": 144534,
+                    "endLine": 2042,
                     "endColumn": 12,
-                    "endOffset": 144789
+                    "endOffset": 144697
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/e6017843b4624842e6695eafd7b383ef3eb9900a/output/res/values/values.xml",
@@ -11025,12 +11025,12 @@
             },
             {
                 "to": {
-                    "startLine": 2045,
+                    "startLine": 2043,
                     "startColumn": 4,
-                    "startOffset": 144794,
-                    "endLine": 2047,
+                    "startOffset": 144702,
+                    "endLine": 2045,
                     "endColumn": 12,
-                    "endOffset": 144964
+                    "endOffset": 144872
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/e6017843b4624842e6695eafd7b383ef3eb9900a/output/res/values/values.xml",
@@ -11046,12 +11046,12 @@
             },
             {
                 "to": {
-                    "startLine": 2048,
+                    "startLine": 2046,
                     "startColumn": 4,
-                    "startOffset": 144969,
-                    "endLine": 2051,
+                    "startOffset": 144877,
+                    "endLine": 2049,
                     "endColumn": 12,
-                    "endOffset": 145217
+                    "endOffset": 145125
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/e6017843b4624842e6695eafd7b383ef3eb9900a/output/res/values/values.xml",
@@ -11067,12 +11067,12 @@
             },
             {
                 "to": {
-                    "startLine": 2052,
+                    "startLine": 2050,
                     "startColumn": 4,
-                    "startOffset": 145222,
-                    "endLine": 2056,
+                    "startOffset": 145130,
+                    "endLine": 2054,
                     "endColumn": 12,
-                    "endOffset": 145508
+                    "endOffset": 145416
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/e6017843b4624842e6695eafd7b383ef3eb9900a/output/res/values/values.xml",
@@ -11088,12 +11088,12 @@
             },
             {
                 "to": {
-                    "startLine": 2057,
+                    "startLine": 2055,
                     "startColumn": 4,
-                    "startOffset": 145513,
-                    "endLine": 2060,
+                    "startOffset": 145421,
+                    "endLine": 2058,
                     "endColumn": 12,
-                    "endOffset": 145758
+                    "endOffset": 145666
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/49ebb4c9ace17a0406b5534df962f8858a47e6cd/output/res/values/values.xml",
@@ -11109,12 +11109,12 @@
             },
             {
                 "to": {
-                    "startLine": 2061,
+                    "startLine": 2059,
                     "startColumn": 4,
-                    "startOffset": 145763,
-                    "endLine": 2063,
+                    "startOffset": 145671,
+                    "endLine": 2061,
                     "endColumn": 12,
-                    "endOffset": 145938
+                    "endOffset": 145846
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/49ebb4c9ace17a0406b5534df962f8858a47e6cd/output/res/values/values.xml",
@@ -11130,12 +11130,12 @@
             },
             {
                 "to": {
-                    "startLine": 2064,
+                    "startLine": 2062,
                     "startColumn": 4,
-                    "startOffset": 145943,
-                    "endLine": 2066,
+                    "startOffset": 145851,
+                    "endLine": 2064,
                     "endColumn": 12,
-                    "endOffset": 146118
+                    "endOffset": 146026
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/49ebb4c9ace17a0406b5534df962f8858a47e6cd/output/res/values/values.xml",
@@ -11151,11 +11151,11 @@
             },
             {
                 "to": {
-                    "startLine": 2067,
+                    "startLine": 2065,
                     "startColumn": 4,
-                    "startOffset": 146123,
+                    "startOffset": 146031,
                     "endColumn": 67,
-                    "endOffset": 146186
+                    "endOffset": 146094
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -11170,11 +11170,11 @@
             },
             {
                 "to": {
-                    "startLine": 2068,
+                    "startLine": 2066,
                     "startColumn": 4,
-                    "startOffset": 146191,
+                    "startOffset": 146099,
                     "endColumn": 72,
-                    "endOffset": 146259
+                    "endOffset": 146167
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -11189,11 +11189,11 @@
             },
             {
                 "to": {
-                    "startLine": 2069,
+                    "startLine": 2067,
                     "startColumn": 4,
-                    "startOffset": 146264,
+                    "startOffset": 146172,
                     "endColumn": 73,
-                    "endOffset": 146333
+                    "endOffset": 146241
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -11208,11 +11208,11 @@
             },
             {
                 "to": {
-                    "startLine": 2070,
+                    "startLine": 2068,
                     "startColumn": 4,
-                    "startOffset": 146338,
+                    "startOffset": 146246,
                     "endColumn": 72,
-                    "endOffset": 146406
+                    "endOffset": 146314
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -11227,11 +11227,11 @@
             },
             {
                 "to": {
-                    "startLine": 2071,
+                    "startLine": 2069,
                     "startColumn": 4,
-                    "startOffset": 146411,
+                    "startOffset": 146319,
                     "endColumn": 73,
-                    "endOffset": 146480
+                    "endOffset": 146388
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -11246,12 +11246,12 @@
             },
             {
                 "to": {
-                    "startLine": 2072,
+                    "startLine": 2070,
                     "startColumn": 4,
-                    "startOffset": 146485,
-                    "endLine": 2073,
+                    "startOffset": 146393,
+                    "endLine": 2071,
                     "endColumn": 12,
-                    "endOffset": 146626
+                    "endOffset": 146534
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -11267,12 +11267,12 @@
             },
             {
                 "to": {
-                    "startLine": 2074,
+                    "startLine": 2072,
                     "startColumn": 4,
-                    "startOffset": 146631,
-                    "endLine": 2075,
+                    "startOffset": 146539,
+                    "endLine": 2073,
                     "endColumn": 12,
-                    "endOffset": 146770
+                    "endOffset": 146678
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -11288,12 +11288,12 @@
             },
             {
                 "to": {
-                    "startLine": 2076,
+                    "startLine": 2074,
                     "startColumn": 4,
-                    "startOffset": 146775,
-                    "endLine": 2077,
+                    "startOffset": 146683,
+                    "endLine": 2075,
                     "endColumn": 12,
-                    "endOffset": 146908
+                    "endOffset": 146816
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -11309,11 +11309,11 @@
             },
             {
                 "to": {
-                    "startLine": 2078,
+                    "startLine": 2076,
                     "startColumn": 4,
-                    "startOffset": 146913,
+                    "startOffset": 146821,
                     "endColumn": 65,
-                    "endOffset": 146974
+                    "endOffset": 146882
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -11328,11 +11328,11 @@
             },
             {
                 "to": {
-                    "startLine": 2079,
+                    "startLine": 2077,
                     "startColumn": 4,
-                    "startOffset": 146979,
+                    "startOffset": 146887,
                     "endColumn": 89,
-                    "endOffset": 147064
+                    "endOffset": 146972
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -11347,11 +11347,11 @@
             },
             {
                 "to": {
-                    "startLine": 2080,
+                    "startLine": 2078,
                     "startColumn": 4,
-                    "startOffset": 147069,
+                    "startOffset": 146977,
                     "endColumn": 75,
-                    "endOffset": 147140
+                    "endOffset": 147048
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -11366,11 +11366,11 @@
             },
             {
                 "to": {
-                    "startLine": 2081,
+                    "startLine": 2079,
                     "startColumn": 4,
-                    "startOffset": 147145,
+                    "startOffset": 147053,
                     "endColumn": 103,
-                    "endOffset": 147244
+                    "endOffset": 147152
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -11385,11 +11385,11 @@
             },
             {
                 "to": {
-                    "startLine": 2082,
+                    "startLine": 2080,
                     "startColumn": 4,
-                    "startOffset": 147249,
+                    "startOffset": 147157,
                     "endColumn": 89,
-                    "endOffset": 147334
+                    "endOffset": 147242
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -11404,11 +11404,11 @@
             },
             {
                 "to": {
-                    "startLine": 2083,
+                    "startLine": 2081,
                     "startColumn": 4,
-                    "startOffset": 147339,
+                    "startOffset": 147247,
                     "endColumn": 101,
-                    "endOffset": 147436
+                    "endOffset": 147344
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -11423,11 +11423,11 @@
             },
             {
                 "to": {
-                    "startLine": 2084,
+                    "startLine": 2082,
                     "startColumn": 4,
-                    "startOffset": 147441,
+                    "startOffset": 147349,
                     "endColumn": 107,
-                    "endOffset": 147544
+                    "endOffset": 147452
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -11442,11 +11442,11 @@
             },
             {
                 "to": {
-                    "startLine": 2085,
+                    "startLine": 2083,
                     "startColumn": 4,
-                    "startOffset": 147549,
+                    "startOffset": 147457,
                     "endColumn": 107,
-                    "endOffset": 147652
+                    "endOffset": 147560
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -11461,11 +11461,11 @@
             },
             {
                 "to": {
-                    "startLine": 2086,
+                    "startLine": 2084,
                     "startColumn": 4,
-                    "startOffset": 147657,
+                    "startOffset": 147565,
                     "endColumn": 99,
-                    "endOffset": 147752
+                    "endOffset": 147660
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -11480,11 +11480,11 @@
             },
             {
                 "to": {
-                    "startLine": 2087,
+                    "startLine": 2085,
                     "startColumn": 4,
-                    "startOffset": 147757,
+                    "startOffset": 147665,
                     "endColumn": 79,
-                    "endOffset": 147832
+                    "endOffset": 147740
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -11499,11 +11499,11 @@
             },
             {
                 "to": {
-                    "startLine": 2088,
+                    "startLine": 2086,
                     "startColumn": 4,
-                    "startOffset": 147837,
+                    "startOffset": 147745,
                     "endColumn": 91,
-                    "endOffset": 147924
+                    "endOffset": 147832
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -11518,11 +11518,11 @@
             },
             {
                 "to": {
-                    "startLine": 2089,
+                    "startLine": 2087,
                     "startColumn": 4,
-                    "startOffset": 147929,
+                    "startOffset": 147837,
                     "endColumn": 97,
-                    "endOffset": 148022
+                    "endOffset": 147930
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -11537,12 +11537,12 @@
             },
             {
                 "to": {
-                    "startLine": 2090,
+                    "startLine": 2088,
                     "startColumn": 4,
-                    "startOffset": 148027,
-                    "endLine": 2091,
+                    "startOffset": 147935,
+                    "endLine": 2089,
                     "endColumn": 12,
-                    "endOffset": 148132
+                    "endOffset": 148040
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -11558,11 +11558,11 @@
             },
             {
                 "to": {
-                    "startLine": 2092,
+                    "startLine": 2090,
                     "startColumn": 4,
-                    "startOffset": 148137,
+                    "startOffset": 148045,
                     "endColumn": 77,
-                    "endOffset": 148210
+                    "endOffset": 148118
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -11577,11 +11577,11 @@
             },
             {
                 "to": {
-                    "startLine": 2093,
+                    "startLine": 2091,
                     "startColumn": 4,
-                    "startOffset": 148215,
+                    "startOffset": 148123,
                     "endColumn": 105,
-                    "endOffset": 148316
+                    "endOffset": 148224
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -11596,11 +11596,11 @@
             },
             {
                 "to": {
-                    "startLine": 2094,
+                    "startLine": 2092,
                     "startColumn": 4,
-                    "startOffset": 148321,
+                    "startOffset": 148229,
                     "endColumn": 91,
-                    "endOffset": 148408
+                    "endOffset": 148316
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -11615,11 +11615,11 @@
             },
             {
                 "to": {
-                    "startLine": 2095,
+                    "startLine": 2093,
                     "startColumn": 4,
-                    "startOffset": 148413,
+                    "startOffset": 148321,
                     "endColumn": 103,
-                    "endOffset": 148512
+                    "endOffset": 148420
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -11634,11 +11634,11 @@
             },
             {
                 "to": {
-                    "startLine": 2096,
+                    "startLine": 2094,
                     "startColumn": 4,
-                    "startOffset": 148517,
+                    "startOffset": 148425,
                     "endColumn": 109,
-                    "endOffset": 148622
+                    "endOffset": 148530
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -11653,12 +11653,12 @@
             },
             {
                 "to": {
-                    "startLine": 2097,
+                    "startLine": 2095,
                     "startColumn": 4,
-                    "startOffset": 148627,
-                    "endLine": 2098,
+                    "startOffset": 148535,
+                    "endLine": 2096,
                     "endColumn": 12,
-                    "endOffset": 148744
+                    "endOffset": 148652
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -11674,12 +11674,12 @@
             },
             {
                 "to": {
-                    "startLine": 2099,
+                    "startLine": 2097,
                     "startColumn": 4,
-                    "startOffset": 148749,
-                    "endLine": 2102,
+                    "startOffset": 148657,
+                    "endLine": 2100,
                     "endColumn": 12,
-                    "endOffset": 148907
+                    "endOffset": 148815
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -11695,12 +11695,12 @@
             },
             {
                 "to": {
-                    "startLine": 2103,
+                    "startLine": 2101,
                     "startColumn": 4,
-                    "startOffset": 148912,
-                    "endLine": 2106,
+                    "startOffset": 148820,
+                    "endLine": 2104,
                     "endColumn": 12,
-                    "endOffset": 149064
+                    "endOffset": 148972
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -11716,12 +11716,12 @@
             },
             {
                 "to": {
-                    "startLine": 2107,
+                    "startLine": 2105,
                     "startColumn": 4,
-                    "startOffset": 149069,
-                    "endLine": 2109,
+                    "startOffset": 148977,
+                    "endLine": 2107,
                     "endColumn": 12,
-                    "endOffset": 149218
+                    "endOffset": 149126
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/e6017843b4624842e6695eafd7b383ef3eb9900a/output/res/values/values.xml",
@@ -11737,12 +11737,12 @@
             },
             {
                 "to": {
-                    "startLine": 2110,
+                    "startLine": 2108,
                     "startColumn": 4,
-                    "startOffset": 149223,
-                    "endLine": 2114,
+                    "startOffset": 149131,
+                    "endLine": 2112,
                     "endColumn": 12,
-                    "endOffset": 149576
+                    "endOffset": 149484
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/e6017843b4624842e6695eafd7b383ef3eb9900a/output/res/values/values.xml",
@@ -11758,12 +11758,12 @@
             },
             {
                 "to": {
-                    "startLine": 2115,
+                    "startLine": 2113,
                     "startColumn": 4,
-                    "startOffset": 149581,
-                    "endLine": 2117,
+                    "startOffset": 149489,
+                    "endLine": 2115,
                     "endColumn": 12,
-                    "endOffset": 149743
+                    "endOffset": 149651
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/e6017843b4624842e6695eafd7b383ef3eb9900a/output/res/values/values.xml",
@@ -11779,12 +11779,12 @@
             },
             {
                 "to": {
-                    "startLine": 2118,
+                    "startLine": 2116,
                     "startColumn": 4,
-                    "startOffset": 149748,
-                    "endLine": 2122,
+                    "startOffset": 149656,
+                    "endLine": 2120,
                     "endColumn": 12,
-                    "endOffset": 150113
+                    "endOffset": 150021
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/e6017843b4624842e6695eafd7b383ef3eb9900a/output/res/values/values.xml",
@@ -11800,12 +11800,12 @@
             },
             {
                 "to": {
-                    "startLine": 2123,
+                    "startLine": 2121,
                     "startColumn": 4,
-                    "startOffset": 150118,
-                    "endLine": 2126,
+                    "startOffset": 150026,
+                    "endLine": 2124,
                     "endColumn": 12,
-                    "endOffset": 150273
+                    "endOffset": 150181
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/e6017843b4624842e6695eafd7b383ef3eb9900a/output/res/values/values.xml",
@@ -11821,12 +11821,12 @@
             },
             {
                 "to": {
-                    "startLine": 2127,
+                    "startLine": 2125,
                     "startColumn": 4,
-                    "startOffset": 150278,
-                    "endLine": 2130,
+                    "startOffset": 150186,
+                    "endLine": 2128,
                     "endColumn": 12,
-                    "endOffset": 150427
+                    "endOffset": 150335
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/e6017843b4624842e6695eafd7b383ef3eb9900a/output/res/values/values.xml",
@@ -11842,11 +11842,11 @@
             },
             {
                 "to": {
-                    "startLine": 2131,
+                    "startLine": 2129,
                     "startColumn": 4,
-                    "startOffset": 150432,
+                    "startOffset": 150340,
                     "endColumn": 79,
-                    "endOffset": 150507
+                    "endOffset": 150415
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -11861,11 +11861,11 @@
             },
             {
                 "to": {
-                    "startLine": 2132,
+                    "startLine": 2130,
                     "startColumn": 4,
-                    "startOffset": 150512,
+                    "startOffset": 150420,
                     "endColumn": 99,
-                    "endOffset": 150607
+                    "endOffset": 150515
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -11880,11 +11880,11 @@
             },
             {
                 "to": {
-                    "startLine": 2133,
+                    "startLine": 2131,
                     "startColumn": 4,
-                    "startOffset": 150612,
+                    "startOffset": 150520,
                     "endColumn": 89,
-                    "endOffset": 150697
+                    "endOffset": 150605
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -11899,11 +11899,11 @@
             },
             {
                 "to": {
-                    "startLine": 2134,
+                    "startLine": 2132,
                     "startColumn": 4,
-                    "startOffset": 150702,
+                    "startOffset": 150610,
                     "endColumn": 109,
-                    "endOffset": 150807
+                    "endOffset": 150715
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -11918,11 +11918,11 @@
             },
             {
                 "to": {
-                    "startLine": 2135,
+                    "startLine": 2133,
                     "startColumn": 4,
-                    "startOffset": 150812,
+                    "startOffset": 150720,
                     "endColumn": 93,
-                    "endOffset": 150901
+                    "endOffset": 150809
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -11937,11 +11937,11 @@
             },
             {
                 "to": {
-                    "startLine": 2136,
+                    "startLine": 2134,
                     "startColumn": 4,
-                    "startOffset": 150906,
+                    "startOffset": 150814,
                     "endColumn": 105,
-                    "endOffset": 151007
+                    "endOffset": 150915
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -11956,11 +11956,11 @@
             },
             {
                 "to": {
-                    "startLine": 2137,
+                    "startLine": 2135,
                     "startColumn": 4,
-                    "startOffset": 151012,
+                    "startOffset": 150920,
                     "endColumn": 91,
-                    "endOffset": 151099
+                    "endOffset": 151007
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -11975,12 +11975,12 @@
             },
             {
                 "to": {
-                    "startLine": 2138,
+                    "startLine": 2136,
                     "startColumn": 4,
-                    "startOffset": 151104,
-                    "endLine": 2139,
+                    "startOffset": 151012,
+                    "endLine": 2137,
                     "endColumn": 12,
-                    "endOffset": 151199
+                    "endOffset": 151107
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -11996,12 +11996,12 @@
             },
             {
                 "to": {
-                    "startLine": 2140,
+                    "startLine": 2138,
                     "startColumn": 4,
-                    "startOffset": 151204,
-                    "endLine": 2141,
+                    "startOffset": 151112,
+                    "endLine": 2139,
                     "endColumn": 12,
-                    "endOffset": 151311
+                    "endOffset": 151219
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12017,12 +12017,12 @@
             },
             {
                 "to": {
-                    "startLine": 2142,
+                    "startLine": 2140,
                     "startColumn": 4,
-                    "startOffset": 151316,
-                    "endLine": 2143,
+                    "startOffset": 151224,
+                    "endLine": 2141,
                     "endColumn": 12,
-                    "endOffset": 151425
+                    "endOffset": 151333
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12038,12 +12038,12 @@
             },
             {
                 "to": {
-                    "startLine": 2144,
+                    "startLine": 2142,
                     "startColumn": 4,
-                    "startOffset": 151430,
-                    "endLine": 2145,
+                    "startOffset": 151338,
+                    "endLine": 2143,
                     "endColumn": 12,
-                    "endOffset": 151541
+                    "endOffset": 151449
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12059,12 +12059,12 @@
             },
             {
                 "to": {
-                    "startLine": 2146,
+                    "startLine": 2144,
                     "startColumn": 4,
-                    "startOffset": 151546,
-                    "endLine": 2147,
+                    "startOffset": 151454,
+                    "endLine": 2145,
                     "endColumn": 12,
-                    "endOffset": 151657
+                    "endOffset": 151565
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12080,11 +12080,11 @@
             },
             {
                 "to": {
-                    "startLine": 2148,
+                    "startLine": 2146,
                     "startColumn": 4,
-                    "startOffset": 151662,
+                    "startOffset": 151570,
                     "endColumn": 93,
-                    "endOffset": 151751
+                    "endOffset": 151659
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12099,11 +12099,11 @@
             },
             {
                 "to": {
-                    "startLine": 2149,
+                    "startLine": 2147,
                     "startColumn": 4,
-                    "startOffset": 151756,
+                    "startOffset": 151664,
                     "endColumn": 113,
-                    "endOffset": 151865
+                    "endOffset": 151773
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12118,11 +12118,11 @@
             },
             {
                 "to": {
-                    "startLine": 2150,
+                    "startLine": 2148,
                     "startColumn": 4,
-                    "startOffset": 151870,
+                    "startOffset": 151778,
                     "endColumn": 111,
-                    "endOffset": 151977
+                    "endOffset": 151885
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12137,12 +12137,12 @@
             },
             {
                 "to": {
-                    "startLine": 2151,
+                    "startLine": 2149,
                     "startColumn": 4,
-                    "startOffset": 151982,
-                    "endLine": 2152,
+                    "startOffset": 151890,
+                    "endLine": 2150,
                     "endColumn": 12,
-                    "endOffset": 152079
+                    "endOffset": 151987
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12158,12 +12158,12 @@
             },
             {
                 "to": {
-                    "startLine": 2153,
+                    "startLine": 2151,
                     "startColumn": 4,
-                    "startOffset": 152084,
-                    "endLine": 2154,
+                    "startOffset": 151992,
+                    "endLine": 2152,
                     "endColumn": 12,
-                    "endOffset": 152199
+                    "endOffset": 152107
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12179,12 +12179,12 @@
             },
             {
                 "to": {
-                    "startLine": 2155,
+                    "startLine": 2153,
                     "startColumn": 4,
-                    "startOffset": 152204,
-                    "endLine": 2156,
+                    "startOffset": 152112,
+                    "endLine": 2154,
                     "endColumn": 12,
-                    "endOffset": 152321
+                    "endOffset": 152229
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12200,11 +12200,11 @@
             },
             {
                 "to": {
-                    "startLine": 2157,
+                    "startLine": 2155,
                     "startColumn": 4,
-                    "startOffset": 152326,
+                    "startOffset": 152234,
                     "endColumn": 81,
-                    "endOffset": 152403
+                    "endOffset": 152311
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12219,11 +12219,11 @@
             },
             {
                 "to": {
-                    "startLine": 2158,
+                    "startLine": 2156,
                     "startColumn": 4,
-                    "startOffset": 152408,
+                    "startOffset": 152316,
                     "endColumn": 103,
-                    "endOffset": 152507
+                    "endOffset": 152415
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12238,11 +12238,11 @@
             },
             {
                 "to": {
-                    "startLine": 2159,
+                    "startLine": 2157,
                     "startColumn": 4,
-                    "startOffset": 152512,
+                    "startOffset": 152420,
                     "endColumn": 119,
-                    "endOffset": 152627
+                    "endOffset": 152535
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12257,11 +12257,11 @@
             },
             {
                 "to": {
-                    "startLine": 2160,
+                    "startLine": 2158,
                     "startColumn": 4,
-                    "startOffset": 152632,
+                    "startOffset": 152540,
                     "endColumn": 125,
-                    "endOffset": 152753
+                    "endOffset": 152661
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12276,11 +12276,11 @@
             },
             {
                 "to": {
-                    "startLine": 2161,
+                    "startLine": 2159,
                     "startColumn": 4,
-                    "startOffset": 152758,
+                    "startOffset": 152666,
                     "endColumn": 97,
-                    "endOffset": 152851
+                    "endOffset": 152759
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12295,11 +12295,11 @@
             },
             {
                 "to": {
-                    "startLine": 2162,
+                    "startLine": 2160,
                     "startColumn": 4,
-                    "startOffset": 152856,
+                    "startOffset": 152764,
                     "endColumn": 93,
-                    "endOffset": 152945
+                    "endOffset": 152853
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12314,11 +12314,11 @@
             },
             {
                 "to": {
-                    "startLine": 2163,
+                    "startLine": 2161,
                     "startColumn": 4,
-                    "startOffset": 152950,
+                    "startOffset": 152858,
                     "endColumn": 87,
-                    "endOffset": 153033
+                    "endOffset": 152941
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12333,11 +12333,11 @@
             },
             {
                 "to": {
-                    "startLine": 2164,
+                    "startLine": 2162,
                     "startColumn": 4,
-                    "startOffset": 153038,
+                    "startOffset": 152946,
                     "endColumn": 111,
-                    "endOffset": 153145
+                    "endOffset": 153053
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12352,11 +12352,11 @@
             },
             {
                 "to": {
-                    "startLine": 2165,
+                    "startLine": 2163,
                     "startColumn": 4,
-                    "startOffset": 153150,
+                    "startOffset": 153058,
                     "endColumn": 115,
-                    "endOffset": 153261
+                    "endOffset": 153169
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12371,11 +12371,11 @@
             },
             {
                 "to": {
-                    "startLine": 2166,
+                    "startLine": 2164,
                     "startColumn": 4,
-                    "startOffset": 153266,
+                    "startOffset": 153174,
                     "endColumn": 121,
-                    "endOffset": 153383
+                    "endOffset": 153291
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12390,11 +12390,11 @@
             },
             {
                 "to": {
-                    "startLine": 2167,
+                    "startLine": 2165,
                     "startColumn": 4,
-                    "startOffset": 153388,
+                    "startOffset": 153296,
                     "endColumn": 111,
-                    "endOffset": 153495
+                    "endOffset": 153403
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12409,12 +12409,12 @@
             },
             {
                 "to": {
-                    "startLine": 2168,
+                    "startLine": 2166,
                     "startColumn": 4,
-                    "startOffset": 153500,
-                    "endLine": 2170,
+                    "startOffset": 153408,
+                    "endLine": 2168,
                     "endColumn": 12,
-                    "endOffset": 153670
+                    "endOffset": 153578
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12430,11 +12430,11 @@
             },
             {
                 "to": {
-                    "startLine": 2171,
+                    "startLine": 2169,
                     "startColumn": 4,
-                    "startOffset": 153675,
+                    "startOffset": 153583,
                     "endColumn": 115,
-                    "endOffset": 153786
+                    "endOffset": 153694
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12449,11 +12449,11 @@
             },
             {
                 "to": {
-                    "startLine": 2172,
+                    "startLine": 2170,
                     "startColumn": 4,
-                    "startOffset": 153791,
+                    "startOffset": 153699,
                     "endColumn": 85,
-                    "endOffset": 153872
+                    "endOffset": 153780
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12468,11 +12468,11 @@
             },
             {
                 "to": {
-                    "startLine": 2173,
+                    "startLine": 2171,
                     "startColumn": 4,
-                    "startOffset": 153877,
+                    "startOffset": 153785,
                     "endColumn": 91,
-                    "endOffset": 153964
+                    "endOffset": 153872
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12487,12 +12487,12 @@
             },
             {
                 "to": {
-                    "startLine": 2174,
+                    "startLine": 2172,
                     "startColumn": 4,
-                    "startOffset": 153969,
-                    "endLine": 2175,
+                    "startOffset": 153877,
+                    "endLine": 2173,
                     "endColumn": 12,
-                    "endOffset": 154076
+                    "endOffset": 153984
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12508,12 +12508,12 @@
             },
             {
                 "to": {
-                    "startLine": 2176,
+                    "startLine": 2174,
                     "startColumn": 4,
-                    "startOffset": 154081,
-                    "endLine": 2177,
+                    "startOffset": 153989,
+                    "endLine": 2175,
                     "endColumn": 12,
-                    "endOffset": 154200
+                    "endOffset": 154108
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12529,11 +12529,11 @@
             },
             {
                 "to": {
-                    "startLine": 2178,
+                    "startLine": 2176,
                     "startColumn": 4,
-                    "startOffset": 154205,
+                    "startOffset": 154113,
                     "endColumn": 66,
-                    "endOffset": 154267
+                    "endOffset": 154175
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12548,12 +12548,12 @@
             },
             {
                 "to": {
-                    "startLine": 2179,
+                    "startLine": 2177,
                     "startColumn": 4,
-                    "startOffset": 154272,
-                    "endLine": 2180,
+                    "startOffset": 154180,
+                    "endLine": 2178,
                     "endColumn": 12,
-                    "endOffset": 154393
+                    "endOffset": 154301
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12569,11 +12569,11 @@
             },
             {
                 "to": {
-                    "startLine": 2181,
+                    "startLine": 2179,
                     "startColumn": 4,
-                    "startOffset": 154398,
+                    "startOffset": 154306,
                     "endColumn": 67,
-                    "endOffset": 154461
+                    "endOffset": 154369
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12588,12 +12588,12 @@
             },
             {
                 "to": {
-                    "startLine": 2182,
+                    "startLine": 2180,
                     "startColumn": 4,
-                    "startOffset": 154466,
-                    "endLine": 2183,
+                    "startOffset": 154374,
+                    "endLine": 2181,
                     "endColumn": 12,
-                    "endOffset": 154589
+                    "endOffset": 154497
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12609,12 +12609,12 @@
             },
             {
                 "to": {
-                    "startLine": 2184,
+                    "startLine": 2182,
                     "startColumn": 4,
-                    "startOffset": 154594,
-                    "endLine": 2185,
+                    "startOffset": 154502,
+                    "endLine": 2183,
                     "endColumn": 12,
-                    "endOffset": 154733
+                    "endOffset": 154641
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12630,12 +12630,12 @@
             },
             {
                 "to": {
-                    "startLine": 2186,
+                    "startLine": 2184,
                     "startColumn": 4,
-                    "startOffset": 154738,
-                    "endLine": 2187,
+                    "startOffset": 154646,
+                    "endLine": 2185,
                     "endColumn": 12,
-                    "endOffset": 154861
+                    "endOffset": 154769
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12651,11 +12651,11 @@
             },
             {
                 "to": {
-                    "startLine": 2188,
+                    "startLine": 2186,
                     "startColumn": 4,
-                    "startOffset": 154866,
+                    "startOffset": 154774,
                     "endColumn": 68,
-                    "endOffset": 154930
+                    "endOffset": 154838
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12670,11 +12670,11 @@
             },
             {
                 "to": {
-                    "startLine": 2189,
+                    "startLine": 2187,
                     "startColumn": 4,
-                    "startOffset": 154935,
+                    "startOffset": 154843,
                     "endColumn": 94,
-                    "endOffset": 155025
+                    "endOffset": 154933
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12689,11 +12689,11 @@
             },
             {
                 "to": {
-                    "startLine": 2190,
+                    "startLine": 2188,
                     "startColumn": 4,
-                    "startOffset": 155030,
+                    "startOffset": 154938,
                     "endColumn": 114,
-                    "endOffset": 155140
+                    "endOffset": 155048
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12708,11 +12708,11 @@
             },
             {
                 "to": {
-                    "startLine": 2191,
+                    "startLine": 2189,
                     "startColumn": 4,
-                    "startOffset": 155145,
+                    "startOffset": 155053,
                     "endColumn": 112,
-                    "endOffset": 155253
+                    "endOffset": 155161
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12727,11 +12727,11 @@
             },
             {
                 "to": {
-                    "startLine": 2192,
+                    "startLine": 2190,
                     "startColumn": 4,
-                    "startOffset": 155258,
+                    "startOffset": 155166,
                     "endColumn": 98,
-                    "endOffset": 155352
+                    "endOffset": 155260
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12746,11 +12746,11 @@
             },
             {
                 "to": {
-                    "startLine": 2193,
+                    "startLine": 2191,
                     "startColumn": 4,
-                    "startOffset": 155357,
+                    "startOffset": 155265,
                     "endColumn": 108,
-                    "endOffset": 155461
+                    "endOffset": 155369
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12765,11 +12765,11 @@
             },
             {
                 "to": {
-                    "startLine": 2194,
+                    "startLine": 2192,
                     "startColumn": 4,
-                    "startOffset": 155466,
+                    "startOffset": 155374,
                     "endColumn": 110,
-                    "endOffset": 155572
+                    "endOffset": 155480
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12784,11 +12784,11 @@
             },
             {
                 "to": {
-                    "startLine": 2195,
+                    "startLine": 2193,
                     "startColumn": 4,
-                    "startOffset": 155577,
+                    "startOffset": 155485,
                     "endColumn": 110,
-                    "endOffset": 155683
+                    "endOffset": 155591
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12803,11 +12803,11 @@
             },
             {
                 "to": {
-                    "startLine": 2196,
+                    "startLine": 2194,
                     "startColumn": 4,
-                    "startOffset": 155688,
+                    "startOffset": 155596,
                     "endColumn": 100,
-                    "endOffset": 155784
+                    "endOffset": 155692
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12822,11 +12822,11 @@
             },
             {
                 "to": {
-                    "startLine": 2197,
+                    "startLine": 2195,
                     "startColumn": 4,
-                    "startOffset": 155789,
+                    "startOffset": 155697,
                     "endColumn": 104,
-                    "endOffset": 155889
+                    "endOffset": 155797
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12841,11 +12841,11 @@
             },
             {
                 "to": {
-                    "startLine": 2198,
+                    "startLine": 2196,
                     "startColumn": 4,
-                    "startOffset": 155894,
+                    "startOffset": 155802,
                     "endColumn": 99,
-                    "endOffset": 155989
+                    "endOffset": 155897
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12860,12 +12860,12 @@
             },
             {
                 "to": {
-                    "startLine": 2199,
+                    "startLine": 2197,
                     "startColumn": 4,
-                    "startOffset": 155994,
-                    "endLine": 2200,
+                    "startOffset": 155902,
+                    "endLine": 2198,
                     "endColumn": 12,
-                    "endOffset": 156119
+                    "endOffset": 156027
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12881,11 +12881,11 @@
             },
             {
                 "to": {
-                    "startLine": 2201,
+                    "startLine": 2199,
                     "startColumn": 4,
-                    "startOffset": 156124,
+                    "startOffset": 156032,
                     "endColumn": 90,
-                    "endOffset": 156210
+                    "endOffset": 156118
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12900,11 +12900,11 @@
             },
             {
                 "to": {
-                    "startLine": 2202,
+                    "startLine": 2200,
                     "startColumn": 4,
-                    "startOffset": 156215,
+                    "startOffset": 156123,
                     "endColumn": 122,
-                    "endOffset": 156333
+                    "endOffset": 156241
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12919,11 +12919,11 @@
             },
             {
                 "to": {
-                    "startLine": 2203,
+                    "startLine": 2201,
                     "startColumn": 4,
-                    "startOffset": 156338,
+                    "startOffset": 156246,
                     "endColumn": 93,
-                    "endOffset": 156427
+                    "endOffset": 156335
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12938,12 +12938,12 @@
             },
             {
                 "to": {
-                    "startLine": 2204,
+                    "startLine": 2202,
                     "startColumn": 4,
-                    "startOffset": 156432,
-                    "endLine": 2205,
+                    "startOffset": 156340,
+                    "endLine": 2203,
                     "endColumn": 12,
-                    "endOffset": 156539
+                    "endOffset": 156447
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12959,11 +12959,11 @@
             },
             {
                 "to": {
-                    "startLine": 2206,
+                    "startLine": 2204,
                     "startColumn": 4,
-                    "startOffset": 156544,
+                    "startOffset": 156452,
                     "endColumn": 85,
-                    "endOffset": 156625
+                    "endOffset": 156533
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12978,11 +12978,11 @@
             },
             {
                 "to": {
-                    "startLine": 2207,
+                    "startLine": 2205,
                     "startColumn": 4,
-                    "startOffset": 156630,
+                    "startOffset": 156538,
                     "endColumn": 103,
-                    "endOffset": 156729
+                    "endOffset": 156637
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -12997,11 +12997,11 @@
             },
             {
                 "to": {
-                    "startLine": 2208,
+                    "startLine": 2206,
                     "startColumn": 4,
-                    "startOffset": 156734,
+                    "startOffset": 156642,
                     "endColumn": 95,
-                    "endOffset": 156825
+                    "endOffset": 156733
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -13016,11 +13016,11 @@
             },
             {
                 "to": {
-                    "startLine": 2209,
+                    "startLine": 2207,
                     "startColumn": 4,
-                    "startOffset": 156830,
+                    "startOffset": 156738,
                     "endColumn": 87,
-                    "endOffset": 156913
+                    "endOffset": 156821
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -13035,12 +13035,12 @@
             },
             {
                 "to": {
-                    "startLine": 2210,
+                    "startLine": 2208,
                     "startColumn": 4,
-                    "startOffset": 156918,
-                    "endLine": 2211,
+                    "startOffset": 156826,
+                    "endLine": 2209,
                     "endColumn": 12,
-                    "endOffset": 157031
+                    "endOffset": 156939
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -13056,12 +13056,12 @@
             },
             {
                 "to": {
-                    "startLine": 2212,
+                    "startLine": 2210,
                     "startColumn": 4,
-                    "startOffset": 157036,
-                    "endLine": 2213,
+                    "startOffset": 156944,
+                    "endLine": 2211,
                     "endColumn": 12,
-                    "endOffset": 157135
+                    "endOffset": 157043
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -13077,12 +13077,12 @@
             },
             {
                 "to": {
-                    "startLine": 2214,
+                    "startLine": 2212,
                     "startColumn": 4,
-                    "startOffset": 157140,
-                    "endLine": 2215,
+                    "startOffset": 157048,
+                    "endLine": 2213,
                     "endColumn": 12,
-                    "endOffset": 157239
+                    "endOffset": 157147
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -13098,12 +13098,12 @@
             },
             {
                 "to": {
-                    "startLine": 2216,
+                    "startLine": 2214,
                     "startColumn": 4,
-                    "startOffset": 157244,
-                    "endLine": 2217,
+                    "startOffset": 157152,
+                    "endLine": 2215,
                     "endColumn": 12,
-                    "endOffset": 157365
+                    "endOffset": 157273
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -13119,11 +13119,11 @@
             },
             {
                 "to": {
-                    "startLine": 2218,
+                    "startLine": 2216,
                     "startColumn": 4,
-                    "startOffset": 157370,
+                    "startOffset": 157278,
                     "endColumn": 87,
-                    "endOffset": 157453
+                    "endOffset": 157361
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -13138,11 +13138,11 @@
             },
             {
                 "to": {
-                    "startLine": 2219,
+                    "startLine": 2217,
                     "startColumn": 4,
-                    "startOffset": 157458,
+                    "startOffset": 157366,
                     "endColumn": 107,
-                    "endOffset": 157561
+                    "endOffset": 157469
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -13157,11 +13157,11 @@
             },
             {
                 "to": {
-                    "startLine": 2220,
+                    "startLine": 2218,
                     "startColumn": 4,
-                    "startOffset": 157566,
+                    "startOffset": 157474,
                     "endColumn": 99,
-                    "endOffset": 157661
+                    "endOffset": 157569
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -13176,11 +13176,11 @@
             },
             {
                 "to": {
-                    "startLine": 2221,
+                    "startLine": 2219,
                     "startColumn": 4,
-                    "startOffset": 157666,
+                    "startOffset": 157574,
                     "endColumn": 89,
-                    "endOffset": 157751
+                    "endOffset": 157659
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -13195,11 +13195,11 @@
             },
             {
                 "to": {
-                    "startLine": 2222,
+                    "startLine": 2220,
                     "startColumn": 4,
-                    "startOffset": 157756,
+                    "startOffset": 157664,
                     "endColumn": 109,
-                    "endOffset": 157861
+                    "endOffset": 157769
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -13214,11 +13214,11 @@
             },
             {
                 "to": {
-                    "startLine": 2223,
+                    "startLine": 2221,
                     "startColumn": 4,
-                    "startOffset": 157866,
+                    "startOffset": 157774,
                     "endColumn": 83,
-                    "endOffset": 157945
+                    "endOffset": 157853
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -13233,11 +13233,11 @@
             },
             {
                 "to": {
-                    "startLine": 2224,
+                    "startLine": 2222,
                     "startColumn": 4,
-                    "startOffset": 157950,
+                    "startOffset": 157858,
                     "endColumn": 101,
-                    "endOffset": 158047
+                    "endOffset": 157955
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -13252,11 +13252,11 @@
             },
             {
                 "to": {
-                    "startLine": 2225,
+                    "startLine": 2223,
                     "startColumn": 4,
-                    "startOffset": 158052,
+                    "startOffset": 157960,
                     "endColumn": 83,
-                    "endOffset": 158131
+                    "endOffset": 158039
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -13271,11 +13271,11 @@
             },
             {
                 "to": {
-                    "startLine": 2226,
+                    "startLine": 2224,
                     "startColumn": 4,
-                    "startOffset": 158136,
+                    "startOffset": 158044,
                     "endColumn": 53,
-                    "endOffset": 158185
+                    "endOffset": 158093
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -13290,11 +13290,11 @@
             },
             {
                 "to": {
-                    "startLine": 2227,
+                    "startLine": 2225,
                     "startColumn": 4,
-                    "startOffset": 158190,
+                    "startOffset": 158098,
                     "endColumn": 63,
-                    "endOffset": 158249
+                    "endOffset": 158157
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -13309,11 +13309,11 @@
             },
             {
                 "to": {
-                    "startLine": 2228,
+                    "startLine": 2226,
                     "startColumn": 4,
-                    "startOffset": 158254,
+                    "startOffset": 158162,
                     "endColumn": 105,
-                    "endOffset": 158355
+                    "endOffset": 158263
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -13328,11 +13328,11 @@
             },
             {
                 "to": {
-                    "startLine": 2229,
+                    "startLine": 2227,
                     "startColumn": 4,
-                    "startOffset": 158360,
+                    "startOffset": 158268,
                     "endColumn": 109,
-                    "endOffset": 158465
+                    "endOffset": 158373
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -13347,11 +13347,11 @@
             },
             {
                 "to": {
-                    "startLine": 2230,
+                    "startLine": 2228,
                     "startColumn": 4,
-                    "startOffset": 158470,
+                    "startOffset": 158378,
                     "endColumn": 83,
-                    "endOffset": 158549
+                    "endOffset": 158457
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -13366,11 +13366,11 @@
             },
             {
                 "to": {
-                    "startLine": 2231,
+                    "startLine": 2229,
                     "startColumn": 4,
-                    "startOffset": 158554,
+                    "startOffset": 158462,
                     "endColumn": 119,
-                    "endOffset": 158669
+                    "endOffset": 158577
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/res/values/values.xml",
@@ -13385,12 +13385,12 @@
             },
             {
                 "to": {
-                    "startLine": 2232,
+                    "startLine": 2230,
                     "startColumn": 4,
-                    "startOffset": 158674,
-                    "endLine": 2233,
+                    "startOffset": 158582,
+                    "endLine": 2231,
                     "endColumn": 12,
-                    "endOffset": 158769
+                    "endOffset": 158677
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/e6017843b4624842e6695eafd7b383ef3eb9900a/output/res/values/values.xml",
@@ -13406,12 +13406,12 @@
             },
             {
                 "to": {
-                    "startLine": 2234,
+                    "startLine": 2232,
                     "startColumn": 4,
-                    "startOffset": 158774,
-                    "endLine": 2240,
+                    "startOffset": 158682,
+                    "endLine": 2238,
                     "endColumn": 12,
-                    "endOffset": 159184
+                    "endOffset": 159092
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/e6017843b4624842e6695eafd7b383ef3eb9900a/output/res/values/values.xml",
@@ -13427,12 +13427,12 @@
             },
             {
                 "to": {
-                    "startLine": 2241,
+                    "startLine": 2239,
                     "startColumn": 4,
-                    "startOffset": 159189,
-                    "endLine": 2244,
+                    "startOffset": 159097,
+                    "endLine": 2242,
                     "endColumn": 12,
-                    "endOffset": 159391
+                    "endOffset": 159299
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/e6017843b4624842e6695eafd7b383ef3eb9900a/output/res/values/values.xml",
@@ -13448,12 +13448,12 @@
             },
             {
                 "to": {
-                    "startLine": 2245,
+                    "startLine": 2243,
                     "startColumn": 4,
-                    "startOffset": 159396,
-                    "endLine": 2247,
+                    "startOffset": 159304,
+                    "endLine": 2245,
                     "endColumn": 12,
-                    "endOffset": 159550
+                    "endOffset": 159458
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/e6017843b4624842e6695eafd7b383ef3eb9900a/output/res/values/values.xml",
@@ -13469,12 +13469,12 @@
             },
             {
                 "to": {
-                    "startLine": 2248,
+                    "startLine": 2246,
                     "startColumn": 4,
-                    "startOffset": 159555,
-                    "endLine": 2256,
+                    "startOffset": 159463,
+                    "endLine": 2254,
                     "endColumn": 12,
-                    "endOffset": 160115
+                    "endOffset": 160023
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/e6017843b4624842e6695eafd7b383ef3eb9900a/output/res/values/values.xml",
@@ -13490,12 +13490,12 @@
             },
             {
                 "to": {
-                    "startLine": 2257,
+                    "startLine": 2255,
                     "startColumn": 4,
-                    "startOffset": 160120,
-                    "endLine": 2262,
+                    "startOffset": 160028,
+                    "endLine": 2260,
                     "endColumn": 12,
-                    "endOffset": 160476
+                    "endOffset": 160384
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/e6017843b4624842e6695eafd7b383ef3eb9900a/output/res/values/values.xml",
@@ -13511,12 +13511,12 @@
             },
             {
                 "to": {
-                    "startLine": 2263,
+                    "startLine": 2261,
                     "startColumn": 4,
-                    "startOffset": 160481,
-                    "endLine": 2265,
+                    "startOffset": 160389,
+                    "endLine": 2263,
                     "endColumn": 12,
-                    "endOffset": 160605
+                    "endOffset": 160513
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/e6017843b4624842e6695eafd7b383ef3eb9900a/output/res/values/values.xml",
@@ -13532,12 +13532,12 @@
             },
             {
                 "to": {
-                    "startLine": 2266,
+                    "startLine": 2264,
                     "startColumn": 4,
-                    "startOffset": 160610,
-                    "endLine": 2274,
+                    "startOffset": 160518,
+                    "endLine": 2272,
                     "endColumn": 12,
-                    "endOffset": 161272
+                    "endOffset": 161180
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/e6017843b4624842e6695eafd7b383ef3eb9900a/output/res/values/values.xml",
@@ -13553,12 +13553,12 @@
             },
             {
                 "to": {
-                    "startLine": 2275,
+                    "startLine": 2273,
                     "startColumn": 4,
-                    "startOffset": 161277,
-                    "endLine": 2278,
+                    "startOffset": 161185,
+                    "endLine": 2276,
                     "endColumn": 12,
-                    "endOffset": 161452
+                    "endOffset": 161360
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/e6017843b4624842e6695eafd7b383ef3eb9900a/output/res/values/values.xml",
@@ -13574,12 +13574,12 @@
             },
             {
                 "to": {
-                    "startLine": 2279,
+                    "startLine": 2277,
                     "startColumn": 4,
-                    "startOffset": 161457,
-                    "endLine": 2286,
+                    "startOffset": 161365,
+                    "endLine": 2284,
                     "endColumn": 12,
-                    "endOffset": 162057
+                    "endOffset": 161965
                 },
                 "from": {
                     "file": "/home/nexusstar/.android/build-cache/e6017843b4624842e6695eafd7b383ef3eb9900a/output/res/values/values.xml",

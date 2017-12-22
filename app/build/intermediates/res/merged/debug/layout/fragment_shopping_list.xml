@@ -1,65 +1,10 @@
 <RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
+                 xmlns:tools="http://schemas.android.com/tools"
+                 android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     >
 
-            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:tools="http://schemas.android.com/tools"
-                android:id="@+id/sl_main_layout"
-                android:scaleType="fitXY"
-                android:layout_width="match_parent"
-                android:focusable="true"
-                android:focusableInTouchMode="true"
-                android:layout_height="match_parent"
-                tools:context="com.example.pawank.themaidproject.Fragments.ShoppingListFragment"
-                android:orientation="vertical">
-
-                <!-- TODO: Update blank fragment layout -->
-
-                <RelativeLayout
-                    android:orientation="horizontal"
-                    android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:id="@+id/sl_header_image"
-                    android:scaleType="fitXY"
-                    android:adjustViewBounds="true"
-                    android:elevation="3dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentTop="true"
-                        android:layout_alignParentStart="true"
-                        android:layout_marginStart="12dp"
-                        android:layout_marginTop="155dp"
-                        android:id="@+id/sl_total_cards"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
-                        android:textSize="22sp"
-                        android:letterSpacing="0.01"
-                        android:fontFamily="sans-serif"
-                        android:textColor="@color/cardview_light_background"
-                        android:textStyle="normal|bold" />
-                </RelativeLayout>
-                <android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:fitsSystemWindows="true"
-                    android:fillViewport="true"
-                    >
-                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                        xmlns:tools="http://schemas.android.com/tools"
-                        android:scaleType="fitCenter"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-                        <android.support.v7.widget.RecyclerView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_margin="10dp"
-                            android:id="@+id/sl_recycler_view"/>
-                    </LinearLayout>
-                </android.support.v4.widget.NestedScrollView>
-            </LinearLayout>
     <android.support.design.widget.FloatingActionButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -71,4 +16,64 @@
     android:layout_alignParentRight="true"
     android:layout_gravity="end|bottom"
         />
+
+    <LinearLayout
+        android:id="@+id/sl_main_layout"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_height="match_parent"
+        tools:context="com.example.pawank.themaidproject.Fragments.ShoppingListFragment"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/sl_header_image"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:elevation="3dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="155dp"
+                android:id="@+id/sl_total_cards"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:textSize="22sp"
+                android:letterSpacing="0.01"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/cardview_light_background"
+                android:textStyle="normal|bold" />
+        </RelativeLayout>
+        <android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            android:fillViewport="true"
+            >
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:scaleType="fitCenter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <android.support.v7.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:id="@+id/sl_recycler_view"/>
+                <include layout="@layout/fragment_shopping_list_pager_view" android:id="@+id/sl_pager"/>
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </LinearLayout>
 </RelativeLayout>

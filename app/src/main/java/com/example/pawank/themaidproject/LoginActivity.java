@@ -25,7 +25,7 @@ public class LoginActivity extends AppCompatActivity{
     private SQLManager sqlManager;
     private int mRotationStatus;
     private static Context context;
-    private EditText mUsername,mPassword;
+    private EditText mUsername,mPassword,IP;
     private String userName,password;
     private Button loginButton;
     private ComManager comManager;
@@ -33,6 +33,8 @@ public class LoginActivity extends AppCompatActivity{
     private ProgressBar mProgressBar;
     private View view;
     private Callback callback;
+    private String URLPrefix = "https://";
+    private String URLSuffix = "/SHEapp/Api";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,6 +47,7 @@ public class LoginActivity extends AppCompatActivity{
         if(mRotationStatus== Configuration.ORIENTATION_PORTRAIT) {
             mUsername = (EditText)findViewById(R.id.editText3);
             mPassword = (EditText)findViewById(R.id.editText4);
+            IP = (EditText)findViewById(R.id.editText5);
             loginButton = (Button)findViewById(R.id.button2);
             mProgressBar = (ProgressBar)findViewById(R.id.progressBar2);
             view =findViewById(R.id.main_layout1);
@@ -52,6 +55,7 @@ public class LoginActivity extends AppCompatActivity{
         else {
             mUsername = (EditText)findViewById(R.id.editText);
             mPassword = (EditText)findViewById(R.id.editText2);
+            IP = (EditText)findViewById(R.id.editText3);
             loginButton = (Button)findViewById(R.id.button);
             mProgressBar = (ProgressBar)findViewById(R.id.progressBar3);
             view =findViewById(R.id.main_layout2);
@@ -110,7 +114,7 @@ public class LoginActivity extends AppCompatActivity{
                         mProgressBar.setVisibility(View.GONE);
                     }
                 };
-                comManager.postLogin(getBaseContext(),userName,password,callback);
+                comManager.postLogin(getBaseContext(),userName,password,IP.getText().toString(),callback);
                 loginButton.setText("Working..");
                 loginButton.setEnabled(false);
                 mProgressBar.setVisibility(View.VISIBLE);

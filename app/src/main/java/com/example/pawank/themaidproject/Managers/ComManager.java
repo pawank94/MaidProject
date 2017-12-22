@@ -119,8 +119,11 @@ public class ComManager {
         NetworkInfo networkInfo= cm.getActiveNetworkInfo();
         return networkInfo!=null && networkInfo.isConnected();
     }
-    public void postLogin(Context ctx,String userName,String password,final Callback loginCallback) {
-       updateConnectionAddress();
+    public void postLogin(Context ctx, String userName, String password, String IP, final Callback loginCallback) {
+        String ipToConnect = getProperUrl(IP);
+        sqlManager.putUrlToConnectTableAddress(ipToConnect);
+        PrefManager.setSharedVal("url_to_connect",ipToConnect);
+        updateConnectionAddress();
         Callback callback= new Callback(){
             @Override
             public void onSuccess(Object obj) throws JSONException, ParseException {
@@ -483,6 +486,10 @@ public class ComManager {
         MiscUtils.logD(TAG,"remove Absent Entries: "+mp.toString());
         this.makeHttpRequest(ctx,urlToConnect,mp,currentModule,currentSubModule,callback);
     }
+
+    public static String getProperUrl(String ip) {
+        return ip + "/SHEapp/Api";
+    }
     //Firebase Key to server
     public void sendFirebaseDeviceKeyToServer(Context ctx, final String token) {
        updateConnectionAddress();
@@ -565,4 +572,5 @@ public class ComManager {
         RequestQueue requestQueue = Volley.newRequestQueue(ctx);
         requestQueue.add(sr);
     }
+
 }

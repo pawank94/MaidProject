@@ -128,7 +128,7 @@ public class SQLManager extends SQLiteOpenHelper {
         else
             return false;
     }
-    public void putUrlTableAddress(String address){
+    public void putUrlToConnectTableAddress(String address){
         sql_db=this.getWritableDatabase();
         if(!isTableEmpty(url_table_name)) {
             MiscUtils.logD(TAG,"url table value updated");

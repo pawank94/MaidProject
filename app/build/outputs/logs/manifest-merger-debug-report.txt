@@ -167,6 +167,7 @@ MERGED from [com.google.android.gms:play-services-basement:9.8.0] /home/nexussta
 		ADDED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml:74:13-58
 uses-sdk
 INJECTED from /home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.1] /home/nexusstar/.android/build-cache/58eebd0ed3076db44bc445b0fd3e9e349c15459e/output/AndroidManifest.xml:18:5-42
 MERGED from [com.android.support:design:24.2.1] /home/nexusstar/.android/build-cache/e6017843b4624842e6695eafd7b383ef3eb9900a/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:appcompat-v7:24.2.1] /home/nexusstar/.android/build-cache/8da40a2e2eeaf59d579538b286a395e7364d213b/output/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:24.2.1] /home/nexusstar/.android/build-cache/8ba46f1cda34fc5cef14d83cb2bdb3c592c8c242/output/AndroidManifest.xml:20:5-44

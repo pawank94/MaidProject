@@ -4,6 +4,10 @@
         "source": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_cancel_black.png"
     },
     {
+        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_cloud_upload_white.png",
+        "source": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_cloud_upload_white.png"
+    },
+    {
         "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_menu_gallery.png",
         "source": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_menu_gallery.png"
     },
@@ -40,6 +44,10 @@
         "source": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_cloud_upload.png"
     },
     {
+        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/maid.png",
+        "source": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/res/drawable-xxxhdpi/maid.png"
+    },
+    {
         "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_list.png",
         "source": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_list.png"
     },
@@ -62,6 +70,10 @@
     {
         "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_small_dot_for_staple.png",
         "source": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_small_dot_for_staple.png"
+    },
+    {
+        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_view_list_white.png",
+        "source": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_view_list_white.png"
     },
     {
         "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_edit_white.png",

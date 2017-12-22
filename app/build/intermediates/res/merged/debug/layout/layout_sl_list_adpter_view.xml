@@ -54,6 +54,9 @@
             android:clickable="false"
             android:cursorVisible="false"
             android:layout_marginRight="5dp"
+            android:scrollHorizontally="false"
+            android:maxLines="4"
+            android:maxWidth="150dp"
             android:text="abc"/>
         <TextView
             android:layout_width="wrap_content"

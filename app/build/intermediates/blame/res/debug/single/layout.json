@@ -36,6 +36,10 @@
         "source": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/res/layout/layout_fm_list.xml"
     },
     {
+        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/layout/fragment_shopping_list_pager_view.xml",
+        "source": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/res/layout/fragment_shopping_list_pager_view.xml"
+    },
+    {
         "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/layout/layout_main_search_bar.xml",
         "source": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/res/layout/layout_main_search_bar.xml"
     },
@@ -214,6 +218,10 @@
     {
         "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/layout/layout_at_bottom_sheet.xml",
         "source": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/res/layout/layout_at_bottom_sheet.xml"
+    },
+    {
+        "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/layout/layout_sl_items_in_pager_view.xml",
+        "source": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/src/main/res/layout/layout_sl_items_in_pager_view.xml"
     },
     {
         "merged": "/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",

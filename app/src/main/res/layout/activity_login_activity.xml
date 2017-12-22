@@ -41,13 +41,23 @@
         android:layout_alignStart="@+id/editText3"
         android:hint="Password" />
 
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="45dp"
+        android:id="@+id/editText5"
+        android:layout_below="@+id/editText4"
+        android:layout_alignStart="@+id/editText4"
+        android:hint="IP" />
+
     <Button
         android:text="Sign In"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText4"
-        android:layout_alignStart="@+id/editText4"
-        android:layout_marginTop="28dp"
+        android:layout_below="@+id/editText5"
+        android:layout_alignStart="@+id/editText5"
+        android:layout_marginTop="20dp"
         android:id="@+id/button2"
         android:fontFeatureSettings="e"
         android:enabled="false" />

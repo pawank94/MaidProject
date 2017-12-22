@@ -1,7 +1,4 @@
-#Tue May 16 09:58:42 IST 2017
-base.0=/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_603cc8290ef98dfd6564b0eee42371d2cacfec23
-renamed.1=classes2.dex
+#Fri Dec 22 12:36:10 IST 2017
+base.0=/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
-file.1=/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_293c58986aaebe7581210070de88423a2d347d37/classes.dex
-base.1=/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_293c58986aaebe7581210070de88423a2d347d37
-file.0=/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_603cc8290ef98dfd6564b0eee42371d2cacfec23/classes.dex
+file.0=/home/nexusstar/AndroidStudioProjects/TheMaidProject/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

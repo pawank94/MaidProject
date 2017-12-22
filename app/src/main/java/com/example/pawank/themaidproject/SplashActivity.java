@@ -122,7 +122,6 @@ public class SplashActivity extends AppCompatActivity {
                             MiscUtils.initCache();
                             MiscUtils.initConsoleFile(getApplicationContext());
                             NotificationEngine.dismissAllNotifications(getApplicationContext());
-                            sqlManager.putUrlTableAddress("https://www.firest0ne.me/SHEapp/Api");
                             comManagerInitUrlAddress();
                             initializeBitmapCache();
                             ConsoleCommands.initConsoleCommand(SplashActivity.this);
